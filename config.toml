@@ -1,7 +1,9 @@
 baseURL = "https://revgen.github.io/"
 languageCode = "en-us"
 title = "Revgen"
-theme = "cactus"
+# theme = "cactus"
+theme = "hugo.386"
+preserveTaxonomyNames = true
 
 copyright = "Revgen"
 # googleAnalytics = "UA-1234-5"
