@@ -1,4 +1,4 @@
-baseURL = "http://revgen.github.io/"
+baseURL = "https://revgen.github.io/"
 languageCode = "en-us"
 title = "Revgen"
 theme = "cactus"
