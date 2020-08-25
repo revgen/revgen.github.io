@@ -1,5 +1,6 @@
 body { 
-	visibility: hidden 
+	visibility: hidden; 
+    background-color: #00ff00;
 }
 
 .navmargin {
@@ -9,3 +10,4 @@ body {
 h2 {
     white-space: normal;
 }
+
