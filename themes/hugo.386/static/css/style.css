@@ -10,3 +10,6 @@ h2 {
     white-space: normal;
 }
 
+.container a.brand {
+	text-transformation: uppercase;
+}
