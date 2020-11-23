@@ -1,0 +1,46 @@
+baseURL: 'https://example.com'
+defaultContentLanguage: en
+languageCode: en-us
+theme: hugo-notepadium
+themesDir: ./themes
+title: REvgen
+copyright: ©2014-2020 <a href="https://github.com/revgen">Evgen Rusakov</a>
+paginate: 25
+enableRobotsTXT: true
+params:
+  assets:
+    css:
+      - css/site.css
+  style: auto
+  dateFormat: 'Monday, January 2, 2006'
+  logo: ''
+  slogan: ''
+  license: ''
+  fullRss: false
+  paginate: 1
+  comments:
+    enable: false
+  math:
+    enable: false
+    use: katex
+  syntax:
+    use: hljs
+    theme: xcode
+    darkTheme: xcode-dark
+  share:
+    enable: false
+    addThisId: ''
+    inlineToolId: ''
+  nav:
+    showCategories: true
+    showTags: true
+    custom:
+      - title: "\U0001F516"
+        url: /bookmarks
+markup:
+  highlight:
+    codeFences: true
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true

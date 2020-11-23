@@ -1,0 +1,29 @@
+{{- define "main" -}}
+<div class="article-container ">
+    {{- $taxonomies := .Data.Plural -}}
+    <section class="article header">
+        <h1 class="article title">{{ $taxonomies }}</h1>
+    </section>
+    <ul class="page collection all-{{ $taxonomies }}">
+        {{- if eq $taxonomies "categories" -}}
+            {{- range $.Site.Taxonomies.categories.ByCount -}}
+            <li>
+                <a href="{{ .Page.RelPermalink }}">
+                    <span>{{ .Page.Title }}</span>
+                    <span>{{ .Count }}</span>
+                </a>
+            </li>
+            {{- end -}}
+        {{- else if eq $taxonomies "tags" -}}
+            {{- range $.Site.Taxonomies.tags -}}
+            <li>
+                <a href="{{ .Page.RelPermalink }}">
+                    <span>{{ .Page.Title }}</span>
+                    <span>{{ .Count }}</span>
+                </a>
+            </li>
+            {{- end -}}
+        {{- end -}}
+        </ul>
+</div>
+{{- end -}}

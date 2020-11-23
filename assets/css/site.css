@@ -1,0 +1,87 @@
+#header {
+  display: block;
+  margin: 0 auto 30px auto;
+  max-width: 720px;
+}
+
+#header .site.name {
+  font-size: 1.75em;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+#header .right-side {
+  margin-top: 10px;
+}
+
+.article {
+  color: rgba(29,43,76,.85);
+}
+
+.article .home {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.article .home img {
+  width: 128px;
+  height: 128px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.home p {
+  padding: 5px 0;
+}
+
+nav a {
+  color: rgba(29,43,76,.85);
+}
+
+.collection {
+  color: #cccccc;
+  margin: 5px 10% 30px 10%;
+}
+
+.collection a:hover {
+  opacity: .5;
+  text-decoration: none;
+}
+.collection a:visited {
+  text-decoration: none;
+}
+
+ul.collection {
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+ul.collection li:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . ";
+}
+
+ul.collection a span:first-child {
+  padding-right: 0.33em;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: rgba(29,43,76,.85);
+  background: #ffffff;
+}
+ul.collection a span + span {
+  float: right;
+  padding-left: 0.33em;
+  font-weight: 600;
+  color: rgba(29,43,76,.85);
+  background: #ffffff;
+}

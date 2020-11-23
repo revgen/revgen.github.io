@@ -1,2 +1,5 @@
-/public/
+*.log
 
+# Hugo specific paths
+public
+resources
