@@ -1,5 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>manuals on REvgen</title><link>https://example.com/categories/manuals/</link><description>Recent content in manuals on REvgen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2014-2020 &lt;a href="https://github.com/revgen">Evgen Rusakov&lt;/a></copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/manuals/index.xml" rel="self" type="application/rss+xml"/><item><title>GPIO on Raspbery Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-gpio/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-gpio/</guid><description>&lt;h1 id="gpio-on-raspberry-pi">GPIO on Raspberry Pi&lt;/h1>
-&lt;p>You can find a schema with all pins:&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>manuals on REvgen</title><link>https://example.com/categories/manuals/</link><description>Recent content in manuals on REvgen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2014-2020 &lt;a href="https://github.com/revgen">Evgen Rusakov&lt;/a></copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/manuals/index.xml" rel="self" type="application/rss+xml"/><item><title>GPIO on Raspbery Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-gpio/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-gpio/</guid><description>&lt;p>You can find a schema with all pins:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="../raspberry-pi-pins.png">raspberry-pi-pins-schema.png&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://pinout.xyz/pinout/ground"target="_blank">PinOut: interactive schema&lt;/a>&lt;/li>
@@ -13,8 +12,7 @@
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>GPIO: &lt;a href="https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/"target="_blank">link 1&lt;/a>, &lt;a href="http://raspberry.io/projects/view/reading-and-writing-from-gpio-ports-from-python/"target="_blank">link 2&lt;/a>, &lt;a href="https://www.raspberrypi.org/forums/viewtopic.php?t=101598"target="_blank">link 3&lt;/a>, &lt;a href="https://www.freecodecamp.org/news/hello-gpio-blinking-led-using-raspberry-pi-zero-wh-65af81718c14/"target="_blank">link 4&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Media Center on Raspbery Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-media-center/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-media-center/</guid><description>&lt;h1 id="media-center-on-raspbery-pi">Media Center on Raspbery Pi&lt;/h1>
-&lt;p>&lt;a href="https://osmc.tv/about/"target="_blank">OSMC&lt;/a> - it is the best Media Player that I found for Raspberry Pi.&lt;/p>
+&lt;/ul></description></item><item><title>Media Center on Raspbery Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-media-center/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-media-center/</guid><description>&lt;p>&lt;a href="https://osmc.tv/about/"target="_blank">OSMC&lt;/a> - it is the best Media Player that I found for Raspberry Pi.&lt;/p>
 &lt;h2 id="install-osmc-to-the-raspberrypi">Install OSMC to the RaspberryPi&lt;/h2>
 &lt;ol>
 &lt;li>The download image file for Raspberry Pi from &lt;a href="https://osmc.tv/download/">https://osmc.tv/download/&lt;/a>&lt;/li>
@@ -39,8 +37,7 @@
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>Kodi on Raspberry Pi: &lt;a href="http://kamilslab.com/2017/02/08/how-to-install-kodi-on-the-raspberry-pi-3-running-raspbian/"target="_blank">link 1&lt;/a>, &lt;a href="https://raspberrypi.stackexchange.com/questions/69003/how-to-autostart-kodi-at-boot"target="_blank">link 2&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Setup Raspberry Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</guid><description>&lt;h1 id="setup-raspberry-pi">Setup Raspberry Pi&lt;/h1>
-&lt;h2 id="install-a-system">Install a system&lt;/h2>
+&lt;/ul></description></item><item><title>Setup Raspberry Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</guid><description>&lt;h2 id="install-a-system">Install a system&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="http://downloads.raspberrypi.org/raspbian_latest"target="_blank">Rasbian download page&lt;/a> (Default rasbian credentials: pi / raspberry)&lt;/li>
 &lt;li>Core terminal tools:&lt;/li>
@@ -105,7 +102,40 @@ alt="WaveShare 3.2&amp;amp;quot; display for Raspberry Pi"/>&lt;/p>
 &lt;li>&lt;a href="https://trickiknow.com/raspberry-pi-3-complete-tutorial-2018-lets-get-started/"target="_blank">Good blog about RaspberryPi 3&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md"target="_blank">Setting WiFi up via the command line&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.raspberrypi.org/forums/viewtopic.php?t=133691"target="_blank">Rasbian Lite Guide - GUI&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Markdown Syntax Guide</title><link>https://example.com/posts/2020/markdown-syntax/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/2020/markdown-syntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
+&lt;/ul></description></item><item><title>Universal Remote Control</title><link>https://example.com/posts/devices/remote-control/universal-remote/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/remote-control/universal-remote/</guid><description>&lt;p>A &lt;a href="https://en.wikipedia.org/wiki/Universal_remote"target="_blank">universal remote&lt;/a> is a remote control that can be programmed to operate various brands of one or more types of consumer electronics devices. Low-end universal remotes can only control
+a set number of devices determined by their manufacturer, while mid- and high-end
+universal remotes allow the user to program in new control codes to the remote.&lt;/p>
+&lt;p>Many remotes sold with various electronic include universal remote capabilities
+for other types of devices, which allow the remote to control other devices beyond the device it came with.&lt;/p>
+&lt;h1 id="ge-universal-remote">GE Universal Remote&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Model&lt;/th>
+&lt;th>Image&lt;/th>
+&lt;th>Links&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://www.manualslib.com/products/Ge-25040-8712383.html"target="_blank">GE 25040&lt;/a>&lt;/td>
+&lt;td>&lt;a href="../ge-universal-remote-controls-25040.jpg">&lt;img src="../ge-universal-remote-controls-25040-small.jpg"
+alt="ge-universal-remote-control-25040"/>&lt;/a>&lt;/td>
+&lt;td>GE 25040: &lt;a href="https://www.manualslib.com/download/1268732/Ge-29519.html"target="_blank">Manual&lt;/a>, &lt;a href="https://byjasco.com/support/ge-universal-remote-codes/cl3"target="_blank">Codes&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.manualslib.com/products/Ge-33709-8768839.html"target="_blank">GE 33709&lt;/a>&lt;/td>
+&lt;td>&lt;a href="../ge-universal-remote-controls-33709.jpg">&lt;img src="../ge-universal-remote-controls-33709-small.jpg"
+alt="ge-universal-remote-control-33709"/>&lt;/a>&lt;/td>
+&lt;td>GE 33709: &lt;a href="https://www.manualslib.com/download/1297701/Ge-33711.html"target="_blank">Manual&lt;/a>, &lt;a href="https://byjasco.com/support/ge-universal-remote-codes/cl4"target="_blank">Codes&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.manualslib.com/brand/ge/universal-remote.html"target="_blank">GE Others&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://www.manualslib.com/brand/ge/universal-remote.html"target="_blank">Manuals&lt;/a>, &lt;a href="https://byjasco.com/support/ge-universal-remote-codes"target="_blank">Codes&lt;/a> (&lt;a href="https://byjasco.com/support/ge-universal-remote-codes/cl3"target="_blank">cl3&lt;/a>, &lt;a href="https://byjasco.com/support/ge-universal-remote-codes/cl4"target="_blank">cl4&lt;/a>)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Markdown Syntax Guide</title><link>https://example.com/posts/2020/markdown-syntax/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/2020/markdown-syntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
 &lt;h2 id="headings">Headings&lt;/h2>
 &lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
 &lt;h1 id="h1">H1&lt;/h1>
