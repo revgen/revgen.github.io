@@ -11,8 +11,6 @@ categories = [
 ]
 +++
 
-# GPIO on Raspberry Pi
-
 You can find a schema with all pins:
 * [raspberry-pi-pins-schema.png](../raspberry-pi-pins.png)
 * [PinOut: interactive schema](https://pinout.xyz/pinout/ground)

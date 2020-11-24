@@ -11,8 +11,6 @@ categories = [
 ]
 +++
 
-# Media Center on Raspbery Pi
-
 [OSMC](https://osmc.tv/about/) - it is the best Media Player that I found for Raspberry Pi.
 
 ## Install OSMC to the RaspberryPi

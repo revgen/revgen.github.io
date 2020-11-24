@@ -10,8 +10,6 @@ categories = [
 ]
 +++
 
-# Setup Raspberry Pi
-
 ## Install a system
 
 * [Rasbian download page](http://downloads.raspberrypi.org/raspbian_latest) (Default rasbian credentials: pi / raspberry)
