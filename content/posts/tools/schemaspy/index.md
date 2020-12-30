@@ -1,7 +1,7 @@
 +++
 title = "SchemaSpy"
-tags = ["tools", "apps"]
-categories = ["development"]
+tags = ["development", "tools"]
+categories = ["tools"]
 +++
 
 [SchemaSpy](http://schemaspy.org/) is a tool to document your database simply and easily.
@@ -11,7 +11,7 @@ categories = ["development"]
 * [Usage](#Usage)
 * [Notes](#Notes)
 
-![SchemaSpy screenshot](http://schemaspy.org/img/example_page.png "SchemaSpy screenshot")
+![SchemaSpy screenshot](./schemaspy-screenshot-01.png "SchemaSpy screenshot")
 
 ## Requirements:
 * [Java 8+](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html)
