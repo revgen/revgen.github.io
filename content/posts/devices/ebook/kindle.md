@@ -6,7 +6,7 @@ tags = [
 ]
 categories = [
     "devices",
-    "manuals"
+    "settings"
 ]
 +++
 

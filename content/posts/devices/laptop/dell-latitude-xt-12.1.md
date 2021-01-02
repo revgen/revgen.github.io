@@ -2,7 +2,7 @@
 title = "Dell Latitude XT 12.1"
 date = "2020-02-01"
 tags = ["laptop", "dell" ]
-categories = ["devices", "manuals"]
+categories = ["devices", "settings"]
 archive = true
 +++
 
