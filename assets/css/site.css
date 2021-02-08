@@ -41,6 +41,14 @@
   margin-top: 20px !important;
 }
 
+.article.markdown-body li div.highlight {
+  margin-top: 10px;
+}
+
+.article.markdown-body li div.highlight pre {
+  line-height: 0;
+}
+
 .home p {
   padding: 5px 0;
 }
