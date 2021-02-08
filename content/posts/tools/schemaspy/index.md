@@ -36,7 +36,10 @@ categories = ["tools"]
         * Go into the new directory with source code: ```cd graphviz*```
         * Fix a problem with PNG (details [here](https://gitlab.com/graphviz/graphviz/issues/1414)):
             - Install graphic driver: ```sudo yum install gd-devel```
-            - Enable HAVE_GD_PNG flag inside the config.h.im file: ```sed -i 's/#undef HAVE_GD_PNG/#define HAVE_GD_PNG/g' config.h.im```
+            - Enable HAVE_GD_PNG flag inside the config.h.im file:
+              ```bash
+              sed -i 's/#undef HAVE_GD_PNG/#define HAVE_GD_PNG/g' config.h.im
+              ```
         * Pre-build configuration: ```./configure```
         * Build the source code: ```make```
         * Install into the system: ```sudo make install```
