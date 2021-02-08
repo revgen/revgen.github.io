@@ -37,6 +37,10 @@
   -webkit-border-radius: 50%;
 }
 
+.article.markdown-body li ul {
+  margin-top: 10px;
+}
+
 .home p {
   padding: 5px 0;
 }
