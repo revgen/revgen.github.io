@@ -6,7 +6,7 @@
 #  license  :Apache License version 2
 #  source   :https://github.com/revgen/dockdb
 #  date     :2016-11-14
-#  version  :1.0
+#  version  :1.1
 ##
 ## Usage: {SCRIPT_NAME} <db type> <command>
 ##
@@ -27,6 +27,13 @@
 ##    logs        - show logs for the specific container
 ##    version     - show the version of the specific database
 ##    help        - show this help screen
+##
+## Docker images:
+## * [Postgresql](https://hub.docker.com/_/postgres/) 
+## * [MySQL](https://hub.docker.com/_/mysql/)
+## * [MongoDB](https://hub.docker.com/_/mongo/)
+## * [MSSQL for Linux](https://hub.docker.com/r/microsoft/mssql-server-linux/)
+## * [Oracle](https://hub.docker.com/r/sath89/oracle-12c/)
 ##
 #=============================================================================
 db_data_dir=${DATA_DIR:-"$HOME/.docker/shared/data"}
