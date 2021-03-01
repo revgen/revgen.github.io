@@ -1,4 +1,102 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>files on REvgen</title><link>https://example.com/categories/files/</link><description>Recent content in files on REvgen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2014-2020 &lt;a href="https://github.com/revgen">Evgen Rusakov&lt;/a></copyright><atom:link href="https://example.com/categories/files/index.xml" rel="self" type="application/rss+xml"/><item><title>Dell Latitude XT 12.1</title><link>https://example.com/posts/devices/laptop/dell-latitude-xt-12.1/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/laptop/dell-latitude-xt-12.1/</guid><description>&lt;h2 id="specifications">Specifications&lt;/h2>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>files on REvgen</title><link>https://example.com/categories/files/</link><description>Recent content in files on REvgen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2014-2020 &lt;a href="https://github.com/revgen">Evgen Rusakov&lt;/a></copyright><atom:link href="https://example.com/categories/files/index.xml" rel="self" type="application/rss+xml"/><item><title>Chromebook</title><link>https://example.com/posts/devices/laptop/chromebook/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/laptop/chromebook/</guid><description>&lt;ul>
+&lt;li>&lt;a href="#install-chromeos-on-pc">Install ChromeOS on PC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#chrome-apps">Chrome Apps&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#chrome-extensions">Chrome Extensions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#note">Note&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="install-chromeos-on-pc">Install ChromeOS on PC&lt;/h1>
+&lt;p>You can&amp;rsquo;t install Chrome OS on the PC because it is closed OS and restricted to use on Chromebook only but you can install &lt;a href="https://www.chromium.org/chromium-os"target="_blank">Chromium OS&lt;/a>.&lt;/p>
+&lt;ol>
+&lt;li>Download: &lt;a href="https://www.neverware.com/freedownload"target="_blank">CloudReady - Home Edition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://guide.neverware.com/build-installer/working-mac-os/"target="_blank">Manual steps in MacOS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://guide.neverware.com/install-and-setup/home-edition"target="_blank">Installation Process&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h1 id="chrome-apps">Chrome Apps&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/calculator/joodangkbfjnajiiifokapkpmhfnpleo"target="_blank">Calculator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki"target="_blank">Google Keep&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/google-play-music/icppfcnhkcmnfdhfhphakoifcfokfdhg"target="_blank">Google Play Music&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/youtube/blpcfgokakmgnkcojhhkbfbldkacnbeo"target="_blank">Youtube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/camera/hfhhnacclhffhdffklopdkcgdhifgngh"target="_blank">Camera&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb"target="_blank">Google Translate&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/paintz/gdjcnhanmagpjdpilaehedkchegnkdoj"target="_blank">PaintZ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/vlc/obpdeolnggmbekmklghapmfpnfhpcndf"target="_blank">VLC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/cog-system-info-viewer/difcjdggkffcfgcfconafogflmmaadco"target="_blank">Cog - System Info Viewer&lt;/a> - Display lots of useful hardware and network info&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo"target="_blank">Secure Shell App&lt;/a> - Google Secure Shell Developers&lt;/li>
+&lt;/ul>
+&lt;p>Need review:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/coding-with-chrome/becloognjehhioodmnimnehjcibkloed"target="_blank">Coding with Chrome&lt;/a>&lt;/li>
+&lt;li>Visual Studio Code: &lt;a href="https://code.headmelted.com/#chromeos-install-scripts">https://code.headmelted.com/#chromeos-install-scripts&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="chrome-extensions">Chrome Extensions&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb"target="_blank">Adblock Plus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko"target="_blank">Session Buddy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj"target="_blank">Save to Pocket&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/skype/lifbcibllhkdhoafpjfnlhfpfgnpldfl"target="_blank">Skype&lt;/a>&lt;/li>
+&lt;li>Screenshots:
+&lt;ul>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj"target="_blank">Awesome Screenshot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp"target="_blank">Lightshot (screenshot tool)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="notes">Notes&lt;/h1>
+&lt;h2 id="hard-reset-powerwash">Hard reset (Powerwash)&lt;/h2>
+&lt;ul>
+&lt;li>Method 1: Press &lt;code>Ctrl+Shift+Alt+R&lt;/code> at the same time and you will rich powerwash menu where you can wipe your Chromebook.&lt;/li>
+&lt;li>Method 2: Turn off your Chromebook. Next, press Esc + Refresh (F3 on Win Keyboard) on the keyboard and hold down the Power button. Your Chromebook will boot straight to recovery mode.&lt;/li>
+&lt;/ul>
+&lt;h2 id="enable-developer-mode">Enable Developer Mode&lt;/h2>
+&lt;ol>
+&lt;li>Power off&lt;/li>
+&lt;li>Start in recovery mode: Esc + Refresh (f3) + Power&lt;/li>
+&lt;li>Press Ctrl+D to enable/disable Development Mode&lt;/li>
+&lt;li>&lt;strong>Note: You need to press Ctrl+D every time in a boot mode to continue to use Development mode.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h2 id="disable-auto-update">Disable Auto Update&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>WARNING: Do it if you really understand what you are doing. Disable Auto Update can make your system unstable and less secure.&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>The only way to skip a flakey version of Chrome would be to prevent updates of ChromeOS itself (&lt;a href="https://www.quora.com/Is-it-possible-to-turn-off-updates-on-a-Chromebook"target="_blank">source&lt;/a>).&lt;/p>
+&lt;p>In developer mode, you can disable root verification:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo /usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification --partitions &lt;span class="m">2&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you can create the file &lt;code>/mnt/stateful_partition/etc/lsb-release&lt;/code>, and put the following lines in it:&lt;/p>
+&lt;pre>&lt;code>CHROMEOS_RELEASE_VERSION=9999.9999.9999.9999
+GOOGLE_RELEASE=9999.9999.9999.9999
+&lt;/code>&lt;/pre>&lt;p>This fools ChromeOS into believing that there are no new updates available.&lt;/p>
+&lt;p>Realize: this will only work in developer mode.&lt;/p>
+&lt;p>When you want to reenable them, you have o leave developer mode, and agree to a scrub and reinstall of ChromeOS.&lt;/p>
+&lt;h2 id="get-system-information">Get system information&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.howtogeek.com/wp-content/uploads/2017/12/xcsi_1.png.pagespeed.gp&amp;#43;jp&amp;#43;jw&amp;#43;pj&amp;#43;ws&amp;#43;js&amp;#43;rj&amp;#43;rp&amp;#43;rw&amp;#43;ri&amp;#43;cp&amp;#43;md.ic.JTQ-p_7trD.png"target="_blank">Check Available Storage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.howtogeek.com/234454/how-to-view-your-chromebooks-hardware-specifications-and-system-information/"target="_blank">See Chromebook’s Hardware Specifications and System Information&lt;/a>&lt;/li>
+&lt;li>Chrome Task Manager (Search+Esc or Win+Esc): Chrome -&amp;gt; Menu (⋮) -&amp;gt; More Tools -&amp;gt; Task Manager&lt;/li>
+&lt;li>Open url in the Chrome: &lt;a href="chrome://system">chrome://system&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="linux-on-chromebook">Linux on Chromebook&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.howtogeek.com/208368/how-to-run-a-full-linux-desktop-in-a-browser-tab-on-your-chromebook/">https://www.howtogeek.com/208368/how-to-run-a-full-linux-desktop-in-a-browser-tab-on-your-chromebook/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrx.org/">https://chrx.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://wiki.galliumos.org/Welcome_to_the_GalliumOS_Wiki">https://wiki.galliumos.org/Welcome_to_the_GalliumOS_Wiki&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/Ubuntu/comments/cb2bf1/thanks_for_saving_my_dell_chromebook/">https://www.reddit.com/r/Ubuntu/comments/cb2bf1/thanks_for_saving_my_dell_chromebook/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="chromium-os-known-issueshttpsguideneverwarecomknown-issues">&lt;a href="https://guide.neverware.com/known-issues/"target="_blank">Chromium OS Known Issues&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://neverware.zendesk.com/hc/en-us/community/posts/360002553127-Family-Link-Support"target="_blank">Family Link doesn&amp;rsquo;t work on Chromium OS&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="links">Links&lt;/h1>
+&lt;ul>
+&lt;li>Awesome Chromebook: &lt;a href="https://github.com/UseWebPlatform/awesome-chromebook">https://github.com/UseWebPlatform/awesome-chromebook&lt;/a>&lt;/li>
+&lt;li>Git on Chrome OS: &lt;a href="https://www.techrepublic.com/article/how-to-use-github-in-chrome-os/">https://www.techrepublic.com/article/how-to-use-github-in-chrome-os/&lt;/a>&lt;/li>
+&lt;li>Add Google Play Store: &lt;a href="https://www.laptopmag.com/articles/get-android-apps-on-your-chromebook">https://www.laptopmag.com/articles/get-android-apps-on-your-chromebook&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="models">Models&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://www.dell.com/support/home/us/en/04/product-support/product/chromebook-11-3120"target="_blank">Dell Chromebook 11 P22t (3120) 2nd generation&lt;/a> - 11.6&amp;quot; Intel Celeron N2840 4gb RAM 16gb&lt;/li>
+&lt;/ul>
+&lt;!-- Dell P22t Screen: NT116WHM-N21 V4.0 (Replacement: https://www.youtube.com/watch?v=NO5B1qKCS7M) --></description></item><item><title>Dell Latitude XT 12.1</title><link>https://example.com/posts/devices/laptop/dell-latitude-xt-12.1/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/laptop/dell-latitude-xt-12.1/</guid><description>&lt;h2 id="specifications">Specifications&lt;/h2>
 &lt;ul>
 &lt;li>CPU: Intel Core 2 Solo 1.06 GHz (U2100)&lt;/li>
 &lt;li>Memory: 2GB&lt;/li>
@@ -344,14 +442,4 @@ alt="ge-universal-remote-control-33709"/>&lt;/a>&lt;/td>
 &lt;p>Block math:
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$&lt;/p></description></item><item><title>Emoji Support</title><link>https://example.com/posts/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/emoji-support/</guid><description>&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
-&lt;p>The &lt;a href="https://gohugo.io/functions/emojify/"target="_blank">&lt;code>emojify&lt;/code>&lt;/a> function can be called directly in templates or &lt;a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes"target="_blank">Inline Shortcodes&lt;/a>.&lt;/p>
-&lt;p>To enable emoji globally, set &lt;code>enableEmoji&lt;/code> to &lt;code>true&lt;/code> in your site&amp;rsquo;s &lt;a href="https://gohugo.io/getting-started/configuration/"target="_blank">configuration&lt;/a> and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p>
-&lt;p>&lt;span class="nowrap">&lt;span class="emojify">🙈&lt;/span> &lt;code>:see_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙉&lt;/span> &lt;code>:hear_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙊&lt;/span> &lt;code>:speak_no_evil:&lt;/code>&lt;/span>&lt;/p>
-&lt;br>
-&lt;p>The &lt;a href="http://www.emoji-cheat-sheet.com/"target="_blank">Emoji cheat sheet&lt;/a> is a useful reference for emoji shorthand codes.&lt;/p>
-&lt;hr>
-&lt;p>&lt;strong>N.B.&lt;/strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">.emoji {
-font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
+$$&lt;/p></description></item></channel></rss>
