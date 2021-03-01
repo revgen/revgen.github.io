@@ -60,13 +60,20 @@
 &lt;p>&lt;strong>WARNING: Do it if you really understand what you are doing. Disable Auto Update can make your system unstable and less secure.&lt;/strong>&lt;/p>
 &lt;/blockquote>
 &lt;p>The only way to skip a flakey version of Chrome would be to prevent updates of ChromeOS itself (&lt;a href="https://www.quora.com/Is-it-possible-to-turn-off-updates-on-a-Chromebook"target="_blank">source&lt;/a>).&lt;/p>
-&lt;p>In developer mode, you can disable root verification:&lt;/p>
+&lt;p>In developer mode, open a shell:&lt;/p>
+&lt;ol>
+&lt;li>Ctrl+Alt+T&lt;/li>
+&lt;li>```shell``&lt;/li>
+&lt;/ol>
+&lt;p>Now you need to disable a root verification:&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo /usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification --partitions &lt;span class="m">2&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you can create the file &lt;code>/mnt/stateful_partition/etc/lsb-release&lt;/code>, and put the following lines in it:&lt;/p>
-&lt;pre>&lt;code>CHROMEOS_RELEASE_VERSION=9999.9999.9999.9999
-GOOGLE_RELEASE=9999.9999.9999.9999
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you can create the file &lt;code>/mnt/stateful_partition/etc/lsb-release&lt;/code> with the specific &amp;lsquo;fake&amp;rsquo; version:&lt;/p>
+&lt;pre>&lt;code>sudo mkdir -p /mnt/stateful_partition/etc
+echo &amp;quot;CHROMEOS_RELEASE_VERSION=9999.9999.9999.9999&amp;quot; | sudo tee /mnt/stateful_partition/etc/lsb-release
+echo &amp;quot;GOOGLE_RELEASE=9999.9999.9999.9999&amp;quot; | sudo tee -a /mnt/stateful_partition/etc/lsb-release
 &lt;/code>&lt;/pre>&lt;p>This fools ChromeOS into believing that there are no new updates available.&lt;/p>
-&lt;p>Realize: this will only work in developer mode.&lt;/p>
+&lt;pre>&lt;code>sudo reboot
+&lt;/code>&lt;/pre>&lt;p>Realize: this will only work in developer mode.&lt;/p>
 &lt;p>When you want to reenable them, you have o leave developer mode, and agree to a scrub and reinstall of ChromeOS.&lt;/p>
 &lt;h2 id="get-system-information">Get system information&lt;/h2>
 &lt;ul>
