@@ -66,16 +66,25 @@ Need review:
 
 The only way to skip a flakey version of Chrome would be to prevent updates of ChromeOS itself ([source](https://www.quora.com/Is-it-possible-to-turn-off-updates-on-a-Chromebook)).
 
-In developer mode, you can disable root verification:
+In developer mode, open a shell:
+1. Ctrl+Alt+T
+2. ```shell``
+
+Now you need to disable a root verification:
 ```bash
 sudo /usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification --partitions 2 
 ```
-Then you can create the file ```/mnt/stateful_partition/etc/lsb-release```, and put the following lines in it:
+Then you can create the file ```/mnt/stateful_partition/etc/lsb-release``` with the specific 'fake' version:
 ```
-CHROMEOS_RELEASE_VERSION=9999.9999.9999.9999 
-GOOGLE_RELEASE=9999.9999.9999.9999 
+sudo mkdir -p /mnt/stateful_partition/etc
+echo "CHROMEOS_RELEASE_VERSION=9999.9999.9999.9999" | sudo tee /mnt/stateful_partition/etc/lsb-release
+echo "GOOGLE_RELEASE=9999.9999.9999.9999" | sudo tee -a /mnt/stateful_partition/etc/lsb-release
 ```
 This fools ChromeOS into believing that there are no new updates available.
+
+```
+sudo reboot
+```
 
 Realize: this will only work in developer mode.
 
