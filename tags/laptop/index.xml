@@ -63,7 +63,7 @@
 &lt;p>In developer mode, open a shell:&lt;/p>
 &lt;ol>
 &lt;li>Ctrl+Alt+T&lt;/li>
-&lt;li>```shell``&lt;/li>
+&lt;li>Start the shell with a command: &lt;code>shell&lt;/code>&lt;/li>
 &lt;/ol>
 &lt;p>Now you need to disable a root verification:&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo /usr/share/vboot/bin/make_dev_ssd.sh --remove_rootfs_verification --partitions &lt;span class="m">2&lt;/span>
