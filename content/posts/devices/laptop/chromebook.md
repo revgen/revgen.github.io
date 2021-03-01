@@ -110,6 +110,7 @@ When you want to reenable them, you have o leave developer mode, and agree to a 
 * Awesome Chromebook: https://github.com/UseWebPlatform/awesome-chromebook
 * Git on Chrome OS: https://www.techrepublic.com/article/how-to-use-github-in-chrome-os/
 * Add Google Play Store: https://www.laptopmag.com/articles/get-android-apps-on-your-chromebook
+* Useful Chrome OS Commands to run in Crosh: https://www.makeuseof.com/tag/terminal-commands-chromebook/, https://beebom.com/chrome-os-commands-run-crosh/
 
 # Models
 
