@@ -68,7 +68,7 @@ The only way to skip a flakey version of Chrome would be to prevent updates of C
 
 In developer mode, open a shell:
 1. Ctrl+Alt+T
-2. ```shell``
+2. Start the shell with a command: ```shell```
 
 Now you need to disable a root verification:
 ```bash
