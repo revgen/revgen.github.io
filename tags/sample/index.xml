@@ -98,6 +98,7 @@ echo &amp;quot;GOOGLE_RELEASE=9999.9999.9999.9999&amp;quot; | sudo tee -a /mnt/s
 &lt;li>Awesome Chromebook: &lt;a href="https://github.com/UseWebPlatform/awesome-chromebook">https://github.com/UseWebPlatform/awesome-chromebook&lt;/a>&lt;/li>
 &lt;li>Git on Chrome OS: &lt;a href="https://www.techrepublic.com/article/how-to-use-github-in-chrome-os/">https://www.techrepublic.com/article/how-to-use-github-in-chrome-os/&lt;/a>&lt;/li>
 &lt;li>Add Google Play Store: &lt;a href="https://www.laptopmag.com/articles/get-android-apps-on-your-chromebook">https://www.laptopmag.com/articles/get-android-apps-on-your-chromebook&lt;/a>&lt;/li>
+&lt;li>Useful Chrome OS Commands to run in Crosh: &lt;a href="https://www.makeuseof.com/tag/terminal-commands-chromebook/,">https://www.makeuseof.com/tag/terminal-commands-chromebook/,&lt;/a> &lt;a href="https://beebom.com/chrome-os-commands-run-crosh/">https://beebom.com/chrome-os-commands-run-crosh/&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h1 id="models">Models&lt;/h1>
 &lt;ul>
