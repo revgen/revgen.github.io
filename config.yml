@@ -37,6 +37,8 @@ params:
     custom:
       - title: "\U0001F516"
         url: /bookmarks
+      - title: "\U0001F6E0"
+        url: /tools
 markup:
   highlight:
     codeFences: true
