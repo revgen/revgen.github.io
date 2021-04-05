@@ -16,6 +16,8 @@ single = true
 * [Bandcamp](https://bandcamp.com/) - online music company where you can buy a music
 
 ## Other
+* [Home Portal](https://sites.google.com/view/homeportal)
+* [Shared Folder](https://drive.google.com/drive/folders/1wdD9ItFM136tv2ZncRitmG7F0ovs36IK)
 * [Microsoft Office](https://www.office.com/)
 * [Microsoft OneDrive](https://onedrive.live.com/)
 * [Apple iCloud](https://icloud.com/)
@@ -24,4 +26,3 @@ single = true
 * [Gitlab](https://gitlab.com/)
 * [Docker Hub](https://hub.docker.com/)
 * [Dropbox](https://dropbox.com/)
-* [Shared Folder](https://drive.google.com/drive/folders/1wdD9ItFM136tv2ZncRitmG7F0ovs36IK)
