@@ -1,0 +1,16 @@
+# Example /etc/msmtprc for gmail
+defaults
+auth            on
+tls             on
+tls_starttls    on
+tls_trust_file  /etc/ssl/certs/ca-certificates.crt
+logfile
+syslog      LOG_MAIL
+ 
+account	    default
+port        587
+host        smtp-relay.gmail.com
+from        account@gmail.com
+user        account@gmail.com
+password    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
