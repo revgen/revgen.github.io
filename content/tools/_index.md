@@ -12,3 +12,10 @@ single = true
 * Symbols and Emoji: [emojipedia](https://emojipedia.org/)
 * [MSPaint](https://jspaint.app)
 * Image Converter: [convertio](https://convertio.co/image-converter)
+
+## Printable Materials
+
+* Printable Calendars: [calendar-12](https://www.calendar-12.com/printable_calendar/2021)
+* Rulers: []()
+* Mazes: [mazes-1](), [mazes-2]()
+
