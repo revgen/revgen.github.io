@@ -15,14 +15,14 @@ which vim &gt;/dev/null <span class=o>||</span> <span class=o>(</span>which vim.
 <span class=nb>echo</span> <span class=s2>&#34;alias ll=&#39;ls -ahl&#39;&#34;</span> &gt;&gt; ~/.bashrc
 
 <span class=c1># Download additional tools and settings</span>
-wget -O <span class=s2>&#34;/tmp/system-info-pi&#34;</span> <span class=s2>&#34;https://revgen.github.io/static/files/distr/raspberry-pi/system-info-pi&#34;</span>
+wget -O <span class=s2>&#34;/tmp/system-info-pi&#34;</span> <span class=s2>&#34;https://revgen.github.io/files/distr/raspberry-pi/system-info-pi&#34;</span>
 chmod +x /tmp/system-info-pi
 sudo mv /tmp/system-info-pi /usr/bin/system-info-pi
 
 <span class=c1># Create autostart script</span>
 mkdir -p <span class=si>${</span><span class=nv>HOME</span><span class=si>}</span>/.config/autostart
-wget -O <span class=s2>&#34;</span><span class=si>${</span><span class=nv>HOME</span><span class=si>}</span><span class=s2>/.config/autostart/autostart.desktop&#34;</span> <span class=s2>&#34;https://revgen.github.io/static/files/distr/raspberry-pi/autostart/autostart.desktop&#34;</span>
-wget -O <span class=s2>&#34;</span><span class=si>${</span><span class=nv>HOME</span><span class=si>}</span><span class=s2>/.config/autostart/autostart.sh&#34;</span> <span class=s2>&#34;https://revgen.github.io/static/files/distr/raspberry-pi/autostart/autostart.sh&#34;</span>
+wget -O <span class=s2>&#34;</span><span class=si>${</span><span class=nv>HOME</span><span class=si>}</span><span class=s2>/.config/autostart/autostart.desktop&#34;</span> <span class=s2>&#34;https://revgen.github.io/files/distr/raspberry-pi/autostart/autostart.desktop&#34;</span>
+wget -O <span class=s2>&#34;</span><span class=si>${</span><span class=nv>HOME</span><span class=si>}</span><span class=s2>/.config/autostart/autostart.sh&#34;</span> <span class=s2>&#34;https://revgen.github.io/files/distr/raspberry-pi/autostart/autostart.sh&#34;</span>
 </code></pre></div><h2 id=setup-python--pip>Setup: python + pip</h2><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>wget -O /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py
 python /tmp/get-pip.py
 sudo ln -fs <span class=k>$(</span>which python3<span class=k>)</span> /usr/bin/python
