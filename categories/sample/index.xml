@@ -178,10 +178,36 @@ sudo apt-get install firmware-b43-installer
 &lt;/ul></description></item><item><title>Setup Raspberry Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</guid><description>&lt;h2 id="install-a-system">Install a system&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="http://downloads.raspberrypi.org/raspbian_latest"target="_blank">Rasbian download page&lt;/a> (Default rasbian credentials: pi / raspberry)&lt;/li>
-&lt;li>Core terminal tools:&lt;/li>
+&lt;li>Main settings: &lt;code>sudo rasbi-config&lt;/code>
+&lt;ul>
+&lt;li>Change Locale&lt;/li>
+&lt;li>Change TimeZone&lt;/li>
+&lt;li>Change Keyboard&lt;/li>
+&lt;li>Enable VNC&lt;/li>
+&lt;li>Enable SSH&lt;/li>
+&lt;li>Change Password&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo apt install htop screen mc elinks git vim p7zip-full jq curl wget dialog tree ncdu
+&lt;/li>
+&lt;li>Additionall tools:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo apt install zenity screen mc htop jq curl wget tree
+sudo apt install ncdu p7zip-full dialog elinks
+&lt;span class="c1"># tools to control/emulate mouse and keyboard&lt;/span>
+sudo apt install xdotool wmctrl xclip
+&lt;span class="c1"># cli tools to control Wi-Fi settings&lt;/span>
 sudo apt install wicd wicd-cli wicd-curses
+&lt;span class="c1"># Link vim to vim.tiny&lt;/span>
+which vim &amp;gt;/dev/null &lt;span class="o">||&lt;/span> &lt;span class="o">(&lt;/span>which vim.tiny &amp;gt;/dev/null &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo ln -vs &lt;span class="k">$(&lt;/span>which vim.tiny&lt;span class="k">)&lt;/span> /usr/bin/vim&lt;span class="o">)&lt;/span>
+&lt;span class="c1"># Add help aliases&lt;/span>
+&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;alias ll=&amp;#39;ls -ahl&amp;#39;&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;span class="c1"># Download additional tools and settings&lt;/span>
+wget -O &lt;span class="s2">&amp;#34;/tmp/system-info-pi&amp;#34;&lt;/span> &lt;span class="s2">&amp;#34;https://revgen.github.io/static/files/distr/raspberry-pi/system-info-pi&amp;#34;&lt;/span>
+chmod +x /tmp/system-info-pi
+sudo mv /tmp/system-info-pi /usr/bin/system-info-pi
+&lt;span class="c1"># Create autostart script&lt;/span>
+mkdir -p &lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>/.config/autostart
+wget -O &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/.config/autostart/autostart.desktop&amp;#34;&lt;/span> &lt;span class="s2">&amp;#34;https://revgen.github.io/static/files/distr/raspberry-pi/autostart/autostart.desktop&amp;#34;&lt;/span>
+wget -O &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/.config/autostart/autostart.sh&amp;#34;&lt;/span> &lt;span class="s2">&amp;#34;https://revgen.github.io/static/files/distr/raspberry-pi/autostart/autostart.sh&amp;#34;&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="setup-python--pip">Setup: python + pip&lt;/h2>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">wget -O /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py
 python /tmp/get-pip.py
