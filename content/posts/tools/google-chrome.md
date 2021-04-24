@@ -1,6 +1,6 @@
 +++
 title = "Google Chrome"
-tags = ["tools", "apps"]
+tags = ["apps"]
 categories = ["tools"]
 +++
 

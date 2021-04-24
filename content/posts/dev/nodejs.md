@@ -1,6 +1,6 @@
 +++
 title = "Node.js"
-tags = [ "javascript", "nodejs" ]
+tags = [ "javascript", "node.js" ]
 categories = [ "development" ]
 +++
 

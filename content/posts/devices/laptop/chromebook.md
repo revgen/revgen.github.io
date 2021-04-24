@@ -1,7 +1,7 @@
 +++
 title = "Chromebook"
 date = "2021-02-01"
-tags = ["laptop", "chromeos", "chromebook" ]
+tags = ["laptop", "chromebook" ]
 categories = ["devices", "settings"]
 archive = true
 +++

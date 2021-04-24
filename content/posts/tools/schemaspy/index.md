@@ -1,6 +1,6 @@
 +++
 title = "SchemaSpy"
-tags = ["development", "tools"]
+tags = ["development", "database"]
 categories = ["tools"]
 +++
 

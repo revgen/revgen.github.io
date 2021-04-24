@@ -1,6 +1,6 @@
 +++
 title = "PostgreSQL"
-tags = [ "sql", "postgresql" ]
+tags = [ "sql", "database" ]
 categories = [ "development" ]
 +++
 

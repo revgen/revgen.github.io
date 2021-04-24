@@ -1,6 +1,6 @@
 +++
 title = "Microsoft Visual Studio Code"
-tags = ["tools", "apps"]
+tags = ["apps", "ide"]
 categories = ["tools"]
 +++
 

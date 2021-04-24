@@ -1,6 +1,6 @@
 +++
 title = "IntelliJ IDEA"
-tags = ["tools", "apps"]
+tags = ["apps", "ide"]
 categories = ["tools", "development", "cheat sheets"]
 archive = true
 +++
