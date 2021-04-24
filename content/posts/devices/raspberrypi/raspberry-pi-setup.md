@@ -13,11 +13,41 @@ categories = [
 ## Install a system
 
 * [Rasbian download page](http://downloads.raspberrypi.org/raspbian_latest) (Default rasbian credentials: pi / raspberry)
-* Core terminal tools:
+* Main settings: ```sudo rasbi-config```
+    - Change Locale
+    - Change TimeZone
+    - Change Keyboard
+    - Enable VNC
+    - Enable SSH
+    - Change Password
+* Additionall tools:
 ```bash
-sudo apt install htop screen mc elinks git vim p7zip-full jq curl wget dialog tree ncdu
+sudo apt install zenity screen mc htop jq curl wget tree
+sudo apt install ncdu p7zip-full dialog elinks
+
+# tools to control/emulate mouse and keyboard
+sudo apt install xdotool wmctrl xclip
+
+# cli tools to control Wi-Fi settings
 sudo apt install wicd wicd-cli wicd-curses
+
+# Link vim to vim.tiny
+which vim >/dev/null || (which vim.tiny >/dev/null && sudo ln -vs $(which vim.tiny) /usr/bin/vim)
+
+# Add help aliases
+echo "alias ll='ls -ahl'" >> ~/.bashrc
+
+# Download additional tools and settings
+wget -O "/tmp/system-info-pi" "https://revgen.github.io/files/distr/raspberry-pi/system-info-pi"
+chmod +x /tmp/system-info-pi
+sudo mv /tmp/system-info-pi /usr/bin/system-info-pi
+
+# Create autostart script
+mkdir -p ${HOME}/.config/autostart
+wget -O "${HOME}/.config/autostart/autostart.desktop" "https://revgen.github.io/files/distr/raspberry-pi/autostart/autostart.desktop"
+wget -O "${HOME}/.config/autostart/autostart.sh" "https://revgen.github.io/files/distr/raspberry-pi/autostart/autostart.sh"
 ```
+
 
 ## Setup: python + pip
 ```bash
