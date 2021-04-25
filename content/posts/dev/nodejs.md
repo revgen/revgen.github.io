@@ -99,7 +99,14 @@ npm update
 ## [dotenv](https://www.npmjs.com/package/dotenv)
 Load .env values into the system environment
 ```bash
-export $(grep -i "^[A-Z]" "./.env" | tr '\r\n' '\n' } xargs)
+# option 1: (doesn't work if you have spaces in the values)
+export $(grep -i "^[A-Z]" "./.env" | tr '\r\n' '\n' | xargs)
+# option 2: bash version
+set -a # automatically export all variables
+. .env
+# or
+source .env
+set +a
 ```
 Use dotenv from the scripts only (without load in the code)
 ```json
