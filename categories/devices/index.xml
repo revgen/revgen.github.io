@@ -1,4 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>devices on REvgen</title><link>https://example.com/categories/devices/</link><description>Recent content in devices on REvgen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2014-2020 &lt;a href="https://github.com/revgen">Evgen Rusakov&lt;/a></copyright><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/devices/index.xml" rel="self" type="application/rss+xml"/><item><title>Chromebook</title><link>https://example.com/posts/devices/laptop/chromebook/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/laptop/chromebook/</guid><description>&lt;ul>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>devices on REvgen</title><link>https://example.com/categories/devices/</link><description>Recent content in devices on REvgen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>©2014-2020 &lt;a href="https://github.com/revgen">Evgen Rusakov&lt;/a></copyright><lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/devices/index.xml" rel="self" type="application/rss+xml"/><item><title>Chromebook</title><link>https://example.com/posts/devices/laptop/chromebook/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/laptop/chromebook/</guid><description>&lt;p>A &lt;a href="https://en.wikipedia.org/wiki/Chromebook"target="_blank">Chromebook&lt;/a> is a laptop or tablet running the Linux-based &lt;a href="https://en.wikipedia.org/wiki/Chrome_OS"target="_blank">Chrome OS&lt;/a> as its operating system.&lt;/p>
+&lt;ul>
 &lt;li>&lt;a href="#install-chromeos-on-pc">Install ChromeOS on PC&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#chrome-apps">Chrome Apps&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#chrome-extensions">Chrome Extensions&lt;/a>&lt;/li>
@@ -106,7 +107,8 @@ echo &amp;quot;GOOGLE_RELEASE=9999.9999.9999.9999&amp;quot; | sudo tee -a /mnt/s
 &lt;ul>
 &lt;li>&lt;a href="https://www.dell.com/support/home/us/en/04/product-support/product/chromebook-11-3120"target="_blank">Dell Chromebook 11 P22t (3120) 2nd generation&lt;/a> - 11.6&amp;quot; Intel Celeron N2840 4gb RAM 16gb&lt;/li>
 &lt;/ul>
-&lt;!-- Dell P22t Screen: NT116WHM-N21 V4.0 (Replacement: https://www.youtube.com/watch?v=NO5B1qKCS7M) --></description></item><item><title>Dell Latitude XT 12.1</title><link>https://example.com/posts/devices/laptop/dell-latitude-xt-12.1/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/laptop/dell-latitude-xt-12.1/</guid><description>&lt;h2 id="specifications">Specifications&lt;/h2>
+&lt;!-- Dell P22t Screen: NT116WHM-N21 V4.0 (Replacement: https://www.youtube.com/watch?v=NO5B1qKCS7M) --></description></item><item><title>Dell Latitude XT 12.1</title><link>https://example.com/posts/devices/laptop/dell-latitude-xt-12.1/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/laptop/dell-latitude-xt-12.1/</guid><description>&lt;p>Specification, setup, and tweaks of the DELL Latitude XT 12.1 laptop.&lt;/p>
+&lt;h2 id="specifications">Specifications&lt;/h2>
 &lt;ul>
 &lt;li>CPU: Intel Core 2 Solo 1.06 GHz (U2100)&lt;/li>
 &lt;li>Memory: 2GB&lt;/li>
@@ -124,7 +126,8 @@ sudo apt-get install firmware-b43-installer
 &lt;li>Get a list of all input devices: &lt;code>xinput - - list&lt;/code>&lt;/li>
 &lt;li>Disable two interfaces related with touch screen: &lt;code>xinput - - disable 15/16 or other&lt;/code>&lt;/li>
 &lt;li>&lt;code>reboot&lt;/code>&lt;/li>
-&lt;/ol></description></item><item><title>Amazon Kindle</title><link>https://example.com/posts/devices/ebook/kindle/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/ebook/kindle/</guid><description>&lt;h2 id="knowledge-base">Knowledge Base&lt;/h2>
+&lt;/ol></description></item><item><title>Amazon Kindle</title><link>https://example.com/posts/devices/ebook/kindle/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/ebook/kindle/</guid><description>&lt;p>Amazon Kindle is a series of e-readers designed and marketed by Amazon.&lt;/p>
+&lt;h2 id="knowledge-base">Knowledge Base&lt;/h2>
 &lt;h3 id="register-with-two-step-authorization">Register with Two-Step authorization&lt;/h3>
 &lt;ol>
 &lt;li>Enter email and password one time&lt;/li>
@@ -136,7 +139,8 @@ sudo apt-get install firmware-b43-installer
 &lt;ol>
 &lt;li>Enter &lt;code>resetmykindle&lt;/code> into the password field&lt;/li>
 &lt;li>After that, your kindle will be reset to the factory settings&lt;/li>
-&lt;/ol></description></item><item><title>GPIO on Raspbery Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-gpio/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-gpio/</guid><description>&lt;p>You can find a schema with all pins:&lt;/p>
+&lt;/ol></description></item><item><title>GPIO on Raspbery Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-gpio/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-gpio/</guid><description>&lt;p>A powerful feature of the Raspberry Pi is the row of GPIO (general-purpose input/output) pins along the top edge of the board. A 40-pin GPIO header is found on all current Raspberry Pi boards.&lt;/p>
+&lt;p>You can find a schema with all pins:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="../raspberry-pi-pins.png">raspberry-pi-pins-schema.png&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://pinout.xyz/pinout/ground"target="_blank">PinOut: interactive schema&lt;/a>&lt;/li>
@@ -175,7 +179,8 @@ sudo apt-get install firmware-b43-installer
 &lt;h2 id="links">Links&lt;/h2>
 &lt;ul>
 &lt;li>Kodi on Raspberry Pi: &lt;a href="http://kamilslab.com/2017/02/08/how-to-install-kodi-on-the-raspberry-pi-3-running-raspbian/"target="_blank">link 1&lt;/a>, &lt;a href="https://raspberrypi.stackexchange.com/questions/69003/how-to-autostart-kodi-at-boot"target="_blank">link 2&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Setup Raspberry Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</guid><description>&lt;h2 id="install-a-system">Install a system&lt;/h2>
+&lt;/ul></description></item><item><title>Setup Raspberry Pi</title><link>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://example.com/posts/devices/raspberrypi/raspberry-pi-setup/</guid><description>&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Raspberry_Pi"target="_blank">Raspberry Pi&lt;/a> is a series of small single-board computers.&lt;/p>
+&lt;h2 id="install-a-system">Install a system&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="http://downloads.raspberrypi.org/raspbian_latest"target="_blank">Rasbian download page&lt;/a> (Default rasbian credentials: pi / raspberry)&lt;/li>
 &lt;li>Main settings: &lt;code>sudo rasbi-config&lt;/code>
