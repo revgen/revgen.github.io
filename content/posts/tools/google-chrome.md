@@ -5,7 +5,7 @@ categories = ["tools"]
 +++
 
 [Google Chrome][wiki-chrome] is a freeware web browser developed by [Google][wiki-google].
-
+<!--more-->
 ## Installation
 
 You can download the last version of Google Chrome [here][download-page].

@@ -4,7 +4,8 @@ tags = ["apps", "ide"]
 categories = ["tools"]
 +++
 
-[Microsoft Visual Studio Code](https://code.visualstudio.com)
+[Microsoft Visual Studio Code](https://code.visualstudio.com) is a code editor redefined and optimized for building and debugging modern web and cloud applications.
+<!--more-->
 
 * [Installation](#installation)
 * [Extensions](#extensions)

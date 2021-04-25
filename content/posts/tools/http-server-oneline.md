@@ -5,6 +5,7 @@ categories = ["tools"]
 +++
 
 Commands which you can use to start HTTP static server in your current (or specified) directory, available at http://localhost:8080.
+<!--more-->
 
 You can find an original extended list of the commands on the [willurd's gists](https://gist.github.com/willurd/5720255) and on [Reddit](https://www.reddit.com/r/webdev/comments/1fs45z/list_of_ad_hoc_http_server_oneliners/).
 

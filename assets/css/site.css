@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "NotoSans";
+  src: url("/assets/fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+  font-family: "NotoSans";
+  src: url("/assets/fonts/NotoSans-Bold.ttf");
+  font-weight: bold;
+}
+
 #header {
   display: block;
   margin: 0 auto 30px auto;
@@ -8,6 +18,15 @@
   font-size: 1.75em;
   letter-spacing: 4px;
   text-transform: uppercase;
+  font-family: "NotoSans";
+}
+
+#header .site.name:before {
+  content: "Ԙvgen"
+}
+
+#header .site.name:hover:before {
+  content: "REvgen"
 }
 
 #header .right-side {
@@ -49,6 +68,18 @@
 
 .article.markdown-body li div.highlight pre {
   line-height: 0;
+}
+
+.article.date {
+  margin-top: 5px;
+}
+
+.article.markdown-body li+li {
+  margin-top: 5px;
+}
+
+.note.date {
+  font-size: 0.75em;
 }
 
 pre.chroma {

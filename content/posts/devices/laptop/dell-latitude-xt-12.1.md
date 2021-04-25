@@ -6,6 +6,9 @@ categories = ["devices", "settings"]
 archive = true
 +++
 
+Specification, setup, and tweaks of the DELL Latitude XT 12.1 laptop.
+<!--more-->
+
 ## Specifications
 * CPU: Intel Core 2 Solo 1.06 GHz (U2100)
 * Memory: 2GB

@@ -3,3 +3,6 @@
 # Hugo specific paths
 public
 resources
+
+
+.DS_Store

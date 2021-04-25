@@ -11,6 +11,8 @@ params:
   assets:
     css:
       - css/site.css
+    js:
+      - js/site.js
   style: light
   dateFormat: 'Monday, January 2, 2006'
   logo: ''

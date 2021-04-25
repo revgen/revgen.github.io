@@ -6,6 +6,9 @@ categories = ["devices", "settings"]
 archive = true
 +++
 
+A [Chromebook](https://en.wikipedia.org/wiki/Chromebook) is a laptop or tablet running the Linux-based [Chrome OS](https://en.wikipedia.org/wiki/Chrome_OS) as its operating system.
+<!--more-->
+
 * [Install ChromeOS on PC](#install-chromeos-on-pc)
 * [Chrome Apps](#chrome-apps)
 * [Chrome Extensions](#chrome-extensions)

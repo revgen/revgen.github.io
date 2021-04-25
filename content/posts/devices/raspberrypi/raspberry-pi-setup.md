@@ -10,6 +10,9 @@ categories = [
 ]
 +++
 
+[Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) is a series of small single-board computers.
+<!--more-->
+
 ## Install a system
 
 * [Rasbian download page](http://downloads.raspberrypi.org/raspbian_latest) (Default rasbian credentials: pi / raspberry)

@@ -5,6 +5,7 @@ categories = [ "development" ]
 +++
 
 [PostgreSQL](https://www.postgresql.org): The World's Most Advanced Open Source Relational Database.
+<!--more-->
 
 * [Installation](#installation)
 * [Commands](#commands)

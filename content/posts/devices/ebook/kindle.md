@@ -10,6 +10,9 @@ categories = [
 ]
 +++
 
+Amazon Kindle is a series of e-readers designed and marketed by Amazon. 
+<!--more-->
+
 ## Knowledge Base
 
 ### Register with Two-Step authorization

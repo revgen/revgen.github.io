@@ -11,6 +11,9 @@ categories = [
 ]
 +++
 
+A powerful feature of the Raspberry Pi is the row of GPIO (general-purpose input/output) pins along the top edge of the board. A 40-pin GPIO header is found on all current Raspberry Pi boards.
+<!--more-->
+
 You can find a schema with all pins:
 * [raspberry-pi-pins-schema.png](../raspberry-pi-pins.png)
 * [PinOut: interactive schema](https://pinout.xyz/pinout/ground)

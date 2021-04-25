@@ -1,0 +1,2 @@
+The source of the NotoSans font is on the Google Font storage:
+https://fonts.google.com/specimen/Noto+Sans

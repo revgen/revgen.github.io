@@ -5,6 +5,7 @@ categories = ["tools"]
 +++
 
 [SchemaSpy](http://schemaspy.org/) is a tool to document your database simply and easily.
+<!--more-->
 
 * [Requirements](#Requirements)
 * [Setup](#Setup)

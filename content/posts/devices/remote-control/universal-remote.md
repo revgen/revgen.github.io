@@ -13,6 +13,7 @@ categories = [
 A [universal remote](https://en.wikipedia.org/wiki/Universal_remote) is a remote control that can be programmed to operate various brands of one or more types of consumer electronics devices. Low-end universal remotes can only control 
 a set number of devices determined by their manufacturer, while mid- and high-end 
 universal remotes allow the user to program in new control codes to the remote. 
+<!--more-->
 
 Many remotes sold with various electronic include universal remote capabilities 
 for other types of devices, which allow the remote to control other devices beyond the device it came with.
