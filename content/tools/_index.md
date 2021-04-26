@@ -18,7 +18,7 @@ single = true
 ## Image and Draw
 
 * Icons: [iconfinder](https://www.iconfinder.com)
-* Symbols and Emoji: [emojipedia](https://emojipedia.org/)
+* Symbols and Emoji: [emojipedia](https://emojipedia.org/), [wikipedia/emoji](https://en.wikipedia.org/wiki/Emoji)
 * [MSPaint](https://jspaint.app)
 * Image Converter: [convertio](https://convertio.co/image-converter)
 
