@@ -42,6 +42,8 @@ build -t my-image .
 ### Run container from an image
 ```bash
 docker run <image name>
+# run as a service
+docker run -d -p 8080:80 --restart=always --name nginx-dev nginx
 ```
 
 ### Remove container
@@ -52,6 +54,11 @@ docker rm <container name>
 ### Remove image
 ```bash
 docker rmi <image name or id>
+```
+
+### Open shell with the specoific container
+```bash
+docker exec -it --name ubuntu bash
 ```
 
 ### Show all running containers
@@ -86,7 +93,7 @@ echo "Cleaning up old volumes..."
 docker volume ls -qf dangling=true | xargs docker volume rm 2>&1 | cat;
 ```
 
-### Show disk usage by dicker images and containers
+### Show disk usage by docker images and containers
 ```bash
 docker system df
 docker system df --verbose
