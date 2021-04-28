@@ -17,6 +17,10 @@ single = true
 
 ## Image and Draw
 
+* Stock Photos and/or Videos: [pexels.com - free](https://www.pexels.com/)
+* Image placeholders:
+    - Random photos: [placeimg.com](https://placeimg.com/), [picsum.photos](https://picsum.photos/)
+    - Image generator: [dummyimage.com](https://dummyimage.com/), [placehold.jp](http://placehold.jp/en.html), [craftypixels.com](https://craftypixels.com/placeholder-image/)
 * Icons: [iconfinder](https://www.iconfinder.com)
 * Symbols and Emoji: [emojipedia](https://emojipedia.org/), [wikipedia/emoji](https://en.wikipedia.org/wiki/Emoji)
 * [MSPaint](https://jspaint.app)
