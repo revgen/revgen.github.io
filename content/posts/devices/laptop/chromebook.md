@@ -13,6 +13,7 @@ A [Chromebook](https://en.wikipedia.org/wiki/Chromebook) is a laptop or tablet r
 * [Chrome Apps](#chrome-apps)
 * [Chrome Extensions](#chrome-extensions)
 * [Note](#note)
+* [Links](#links)
 
 # Install ChromeOS on PC
 
@@ -112,7 +113,8 @@ When you want to reenable them, you have o leave developer mode, and agree to a 
 
 * Awesome Chromebook: https://github.com/UseWebPlatform/awesome-chromebook
 * Chrome OS end-of-life database: https://support.google.com/chrome/a/answer/6220366?hl=en
-* CHrome OS Releases blog: https://chromereleases.googleblog.com/search/label/Chrome%20OS
+* Chrome OS Releases blog: https://chromereleases.googleblog.com/search/label/Chrome%20OS
+* Chrome OS Systems Supporting Android Apps: https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps
 * Git on Chrome OS: https://www.techrepublic.com/article/how-to-use-github-in-chrome-os/
 * Add Google Play Store: https://www.laptopmag.com/articles/get-android-apps-on-your-chromebook
 * Useful Chrome OS Commands to run in Crosh: https://www.makeuseof.com/tag/terminal-commands-chromebook/, https://beebom.com/chrome-os-commands-run-crosh/
