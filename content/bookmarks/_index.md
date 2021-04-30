@@ -24,6 +24,11 @@ single = true
 * [M-XCloud](https://www.mixcloud.com)
     - [DJ Iridium](https://www.mixcloud.com/djiridium/)
 
+## Books
+* [Free Book Library](https://ebooks.darknetproxy.com/)
+* [Project Gutenberg](https://www.gutenberg.org/)
+* [Open Library](https://openlibrary.org/)
+
 ## Other
 * [Home Portal](https://sites.google.com/view/homeportal)
 * [Shared Folder](https://drive.google.com/drive/folders/1wdD9ItFM136tv2ZncRitmG7F0ovs36IK)
