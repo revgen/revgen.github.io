@@ -4,6 +4,7 @@
 &lt;li>&lt;a href="#chrome-apps">Chrome Apps&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#chrome-extensions">Chrome Extensions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#note">Note&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#links">Links&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h1 id="install-chromeos-on-pc">Install ChromeOS on PC&lt;/h1>
 &lt;p>You can&amp;rsquo;t install Chrome OS on the PC because it is closed OS and restricted to use on Chromebook only but you can install &lt;a href="https://www.chromium.org/chromium-os"target="_blank">Chromium OS&lt;/a>.&lt;/p>
@@ -98,7 +99,8 @@ echo &amp;quot;GOOGLE_RELEASE=9999.9999.9999.9999&amp;quot; | sudo tee -a /mnt/s
 &lt;ul>
 &lt;li>Awesome Chromebook: &lt;a href="https://github.com/UseWebPlatform/awesome-chromebook">https://github.com/UseWebPlatform/awesome-chromebook&lt;/a>&lt;/li>
 &lt;li>Chrome OS end-of-life database: &lt;a href="https://support.google.com/chrome/a/answer/6220366?hl=en">https://support.google.com/chrome/a/answer/6220366?hl=en&lt;/a>&lt;/li>
-&lt;li>CHrome OS Releases blog: &lt;a href="https://chromereleases.googleblog.com/search/label/Chrome%20OS">https://chromereleases.googleblog.com/search/label/Chrome%20OS&lt;/a>&lt;/li>
+&lt;li>Chrome OS Releases blog: &lt;a href="https://chromereleases.googleblog.com/search/label/Chrome%20OS">https://chromereleases.googleblog.com/search/label/Chrome%20OS&lt;/a>&lt;/li>
+&lt;li>Chrome OS Systems Supporting Android Apps: &lt;a href="https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps">https://sites.google.com/a/chromium.org/dev/chromium-os/chrome-os-systems-supporting-android-apps&lt;/a>&lt;/li>
 &lt;li>Git on Chrome OS: &lt;a href="https://www.techrepublic.com/article/how-to-use-github-in-chrome-os/">https://www.techrepublic.com/article/how-to-use-github-in-chrome-os/&lt;/a>&lt;/li>
 &lt;li>Add Google Play Store: &lt;a href="https://www.laptopmag.com/articles/get-android-apps-on-your-chromebook">https://www.laptopmag.com/articles/get-android-apps-on-your-chromebook&lt;/a>&lt;/li>
 &lt;li>Useful Chrome OS Commands to run in Crosh: &lt;a href="https://www.makeuseof.com/tag/terminal-commands-chromebook/,">https://www.makeuseof.com/tag/terminal-commands-chromebook/,&lt;/a> &lt;a href="https://beebom.com/chrome-os-commands-run-crosh/">https://beebom.com/chrome-os-commands-run-crosh/&lt;/a>&lt;/li>
