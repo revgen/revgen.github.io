@@ -29,10 +29,19 @@ single = true
 * [Project Gutenberg](https://www.gutenberg.org/)
 * [Open Library](https://openlibrary.org/)
 
+## Development
+* [Github](https://github.com/), [Bitbucket](https://bitbucket.com/), [Gitlab](https://gitlab.com/)
+* [Draw.io - Diagram editor](https://app.diagrams.net/)
+* [Python online](https://replit.com/languages/python3), [Go online](https://tour.golang.org/)
+* Markdown editor: [stackedit.io](https://stackedit.io/app), [jbt-markdown-editor](http://jbt.github.io/markdown-editor/)
+* Whiteboard: [NoteBookCast](https://www.notebookcast.com/en/new-board), [ziteboard.com](https://app.ziteboard.com/)
+* Regex online: [regex101.com](https://regex101.com/), [regexr.com](https://regexr.com/)
+* Security: [Password Generator](https://passwordsgenerator.net/), [JWT.io](https://jwt.io/), [SHA256 (and other)](https://emn178.github.io/online-tools/sha256.html)
+* [crontab.guru](https://crontab.guru/)
+
 ## Other
 * [Microsoft Office](https://www.office.com/), [Microsoft OneDrive](https://onedrive.live.com/)
 * [Apple iCloud](https://icloud.com/)
-* [Github](https://github.com/), [Bitbucket](https://bitbucket.com/), [Gitlab](https://gitlab.com/)
 * [Docker Hub](https://hub.docker.com/)
 * [Dropbox](https://dropbox.com/)
 * [World Clock Meeting Planner](https://www.timeanddate.com/worldclock/meetingtime.html): [USA - Amsterdam - Moscow](https://www.timeanddate.com/worldclock/meetingtime.html?p1=263&p2=137&p3=16&p4=166)
