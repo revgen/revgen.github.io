@@ -15,6 +15,23 @@ single = true
     - [Hash Generator](https://www.whatsmyip.org/hash-generator/)
     - [Password Generator](https://www.whatsmyip.org/random-password-generator/)
 
+## Development
+* [Github](https://github.com/), [Bitbucket](https://bitbucket.com/), [Gitlab](https://gitlab.com/)
+* [Draw.io - Diagram editor](https://app.diagrams.net/)
+* [Python online](https://replit.com/languages/python3), [Go online](https://tour.golang.org/)
+* Markdown editor: [stackedit.io](https://stackedit.io/app), [jbt-markdown-editor](http://jbt.github.io/markdown-editor/)
+* Whiteboard: [NoteBookCast](https://www.notebookcast.com/en/new-board), [ziteboard.com](https://app.ziteboard.com/)
+* Regex online: [regex101.com](https://regex101.com/), [regexr.com](https://regexr.com/)
+* Security: [Password Generator](https://passwordsgenerator.net/), [JWT.io](https://jwt.io/), [SHA256 (and other)](https://emn178.github.io/online-tools/sha256.html)
+* [crontab.guru](https://crontab.guru/)
+
+## Clouds
+
+* [AWS](https://signin.aws.amazon.com/console) - [Amazon Web Services](https://en.wikipedia.org/wiki/Amazon_Web_Services)
+* [Azure](https://azure.microsoft.com/en-us/) - [Microsoft Azure](https://en.wikipedia.org/wiki/Microsoft_Azure)
+* [GCP](https://console.cloud.google.com/) - [Google  Cloud Platform](https://en.wikipedia.org/wiki/Google_Cloud_Platform)
+* [Oracle Cloud](https://cloud.oracle.com/compute/instances?region=us-ashburn-1) - [cloud computing service offered by Oracle Corporation](https://en.wikipedia.org/wiki/Oracle_Cloud)
+
 ## Image and Draw
 
 * Stock Photos and/or Videos: [pexels.com - free](https://www.pexels.com/)
@@ -29,6 +46,5 @@ single = true
 ## Printable Materials
 
 * Printable Calendars: [calendar-12](https://www.calendar-12.com/printable_calendar/2021)
-* Rulers: []()
-* Mazes: [mazes-1](), [mazes-2]()
+* Rulers: [printable-ruler.net](https://printable-ruler.net/)
 
