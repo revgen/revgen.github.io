@@ -14,6 +14,15 @@ single = true
     - [HTTP Headers](https://www.whatsmyip.org/http-headers/)
     - [Hash Generator](https://www.whatsmyip.org/hash-generator/)
     - [Password Generator](https://www.whatsmyip.org/random-password-generator/)
+* Collection of the Networking Tools from [](https://www.yougetsignal.com/)
+    - [What is My IP](https://www.yougetsignal.com/what-is-my-ip-address/)
+    - [Port Scanner](https://www.yougetsignal.com/tools/open-ports/)
+* Get you public IP address in cli:
+    - ```curl -sL http://checkip.amazonaws.com```
+    - ```curl -sL https://api.ipify.org``` or ```curl -sL https://api.ipify.org?format=json```
+    - ```curl -sL http://icanhazip.com```
+    - ```curl -sL http://checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'```
+
 
 ## Development
 * [Github](https://github.com/), [Bitbucket](https://bitbucket.com/), [Gitlab](https://gitlab.com/)
