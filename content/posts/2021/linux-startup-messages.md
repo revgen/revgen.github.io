@@ -16,14 +16,20 @@ Character sequences to display various information ([source](http://www.linuxfro
 * **\t** - Insert the current time
 * **\n** - Insert the hostname
 * **\l** - Insert the name of the current tty line
-* **\m** - Insert the architecture identifier of the machine, e.g., i686
 * **\4** - Insert the machine's IPv4 address ([CentOS and Debian](https://serverfault.com/a/825582))
 
-Example file:
+Example:
 ```
-[\l] Ubuntu 20.04.2 LTS \m
+# cat /etc/issue
+[\l] Ubuntu 20.04.2 LTS
 hostname  : \n
 address   : \4
+
+# output
+[tty1] Ubuntu 20.04.2 LTS
+hostname: 192.168.15.27
+address : websrv1
 ```
+
 
 ## Change pre-login message in the SSH
