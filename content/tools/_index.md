@@ -28,7 +28,7 @@ single = true
 * [Github](https://github.com/), [Bitbucket](https://bitbucket.com/), [Gitlab](https://gitlab.com/)
 * [Draw.io - Diagram editor](https://app.diagrams.net/)
 * [Python online](https://replit.com/languages/python3), [Go online](https://tour.golang.org/)
-* Markdown editor: [stackedit.io](https://stackedit.io/app), [jbt-markdown-editor](http://jbt.github.io/markdown-editor/)
+* [Markdown](https://www.markdownguide.org/basic-syntax/) editor: [stackedit.io](https://stackedit.io/app), [jbt-markdown-editor](http://jbt.github.io/markdown-editor/)
 * Whiteboard: [NoteBookCast](https://www.notebookcast.com/en/new-board), [ziteboard.com](https://app.ziteboard.com/)
 * Regex online: [regex101.com](https://regex101.com/), [regexr.com](https://regexr.com/)
 * Security: [Password Generator](https://passwordsgenerator.net/), [JWT.io](https://jwt.io/), [SHA256 (and other)](https://emn178.github.io/online-tools/sha256.html)
