@@ -31,6 +31,7 @@ single = true
 * [Markdown](https://www.markdownguide.org/basic-syntax/) editor: [stackedit.io](https://stackedit.io/app), [jbt-markdown-editor](http://jbt.github.io/markdown-editor/)
 * Whiteboard: [NoteBookCast](https://www.notebookcast.com/en/new-board), [ziteboard.com](https://app.ziteboard.com/)
 * Regex online: [regex101.com](https://regex101.com/), [regexr.com](https://regexr.com/)
+* [EJS Template Editor](https://ionicabizau.github.io/ejs-playground/)
 * Security: [Password Generator](https://passwordsgenerator.net/), [JWT.io](https://jwt.io/), [SHA256 (and other)](https://emn178.github.io/online-tools/sha256.html)
 * [crontab.guru](https://crontab.guru/)
 
