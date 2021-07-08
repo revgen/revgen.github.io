@@ -6,7 +6,9 @@ tags = ["images", "remote"]
 
 * [My background images](#my-background-images)
 * [Other good backgrounds](#other-good-backgrounds)
-* [Zoom - how to change background](#zoom-how-to-change-background)
+* [How to change background in Zoom](#how-to-change-background-in-zoom)
+
+<!--more-->
 
 ## My background images
 [![AirBNB](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-zoom-backgrounds-free-airbnb-new-zealand-1587414928.jpg?crop=1.00xw:0.847xh;0,0.117xh&resize=768:*)](https://esquire-sg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/05/26104607/airbnb-zoom-nz.jpg)
@@ -38,7 +40,7 @@ tags = ["images", "remote"]
 * https://gndn.wordpress.com/2012/07/07/alien-hd-screencaps-for-desktop-backgrounds/
 * https://www.esquiresg.com/galleries/best-zoom-backgrounds-for-work-calls-meetings-virtual-social-gatherings-singapore/
 
-## Zoom - how to change background
+## How to change background in Zoom
 
 [Zoom](https://zoom.us) is a cloud platform for video and audio conferencing, chat, and webinars across mobile, desktop, and room systems.
 
