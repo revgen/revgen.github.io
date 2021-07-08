@@ -1,6 +1,6 @@
 +++
 title = "Backgrounds for Virtual Meetings"
-categories = ["files"]
+categories = ["files", "settings"]
 tags = ["images", "remote"]
 +++
 
