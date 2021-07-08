@@ -1,16 +1,18 @@
 +++
-title = "Virtual Backgrounds"
+title = "Backgrounds for Virtual Meetings"
 categories = ["files"]
 tags = ["images", "remote"]
 +++
 
-* [My background images](#my-background-images)
-* [Other good backgrounds](#other-good-backgrounds)
-* [How to change background in Zoom](#how-to-change-background-in-zoom)
-
+Many of the Virtual Meeting tools ([Zoom](https://zoom.us/), [Skype](https://www.skype.com/), [Wickr](https://wickr.com/), and [other](https://teambuilding.com/blog/virtual-meeting-platforms)) allow us to hide or blur a real background with a custom image.
 <!--more-->
 
-## My background images
+* [Background images for Virtual Meetings](#background-images-for-virtual-meetings)
+* [Other public resources with good backgrounds](#other-public-resources-with-good-backgrounds)
+* Zoom: [how to change background](#how-to-change-background-in-zoom)
+
+
+## Background images for Virtual Meetings
 [![AirBNB](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-zoom-backgrounds-free-airbnb-new-zealand-1587414928.jpg?crop=1.00xw:0.847xh;0,0.117xh&resize=768:*)](https://esquire-sg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/05/26104607/airbnb-zoom-nz.jpg)
 [![France](https://esquire-sg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/05/26104536/airbnb-zoom-france.jpg)](https://esquire-sg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/05/26104536/airbnb-zoom-france.jpg)
 [![Breaking Bad](https://esquire-sg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/04/06124836/breaking-bad-zoom.jpg)](https://esquire-sg.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/04/06124836/breaking-bad-zoom.jpg)
