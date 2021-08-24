@@ -15,7 +15,8 @@ sudo apt install certbot python3-certbot-nginx
 ## Update nginx server_name
 ```bash
 sudo vim /etc/nginx/sites-available/default
-# search server_name and update it with your full domain name, example: dev1.example.com dev2.example.com
+# search server_name and update it with your full domain name,
+# example: dev1.example.com dev2.example.com
 ```
 
 ## Check nginx configuration and reload it
