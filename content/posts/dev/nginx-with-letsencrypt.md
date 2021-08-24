@@ -4,7 +4,8 @@ tags = [ "nginx", "security" ]
 categories = [ "settings" ]
 +++
 
-There are steps to add a free SSL certificate from Let’s Encrypt to your Nginx server.
+In this small tutorial, we add a free SSL certificate from [Let’s Encrypt](https://letsencrypt.org/) for [Nginx](https://www.nginx.com/) on [Ubuntu 20.04](https://ubuntu.com).
+<!--more-->
 
 ## Install certbot
 ```bash
