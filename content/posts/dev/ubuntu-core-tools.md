@@ -42,6 +42,7 @@ sudo ufw allow ssh
 sudo ufw allow http
 sudo ufw allow https
 sudo ufw allow out 53,113,123/udp
+sudo ufw allow 8000:9999/tcp
 
 sudo ufw enable
 sudo ufw status
