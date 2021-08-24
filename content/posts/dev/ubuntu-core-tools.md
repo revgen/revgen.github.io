@@ -60,6 +60,15 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt -y install nodejs
 ```
 
+## Install GoLang
+```bash
+sudo rm -rf /usr/local/go
+wget -O go.linux-amd64.tar.gz https://golang.org/dl/go1.17.linux-amd64.tar.gz
+sudo tar -vC /usr/local/ -xzf go.linux-amd64.tar.gz
+
+export PATH=$PATH:/usr/local/go/bin
+```
+
 ## Install aws-cli v2+
 ```bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
