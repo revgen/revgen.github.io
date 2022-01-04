@@ -39,7 +39,7 @@ params:
     custom:
       - title: "\U0001F4C1"
         url: /categories
-      - title: "\U0023"
+      - title: "\U00000023"
         url: /tags
       - title: "\U0001F516"
         url: /bookmarks
