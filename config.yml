@@ -34,9 +34,13 @@ params:
     addThisId: ''
     inlineToolId: ''
   nav:
-    showCategories: true
-    showTags: true
+    showCategories: false
+    showTags: false
     custom:
+      - title: "\U0001F4C1"
+        url: /categories
+      - title: "\U0023"
+        url: /tags
       - title: "\U0001F516"
         url: /bookmarks
       - title: "\U0001F6E0"
