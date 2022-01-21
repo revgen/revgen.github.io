@@ -37,14 +37,12 @@ params:
     showCategories: false
     showTags: false
     custom:
-      - title: "\U0001F4C1"
-        url: /categories
-      - title: "\U00000023"
-        url: /tags
       - title: "\U0001F516"
         url: /bookmarks
       - title: "\U0001F6E0"
         url: /tools
+      - title: "\U00000023"
+        url: /tags
 markup:
   highlight:
     codeFences: true
