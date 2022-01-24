@@ -37,9 +37,9 @@ single = true
 
 ## Clouds
 
-* [AWS](https://signin.aws.amazon.com/console) - Amazon Web Services: [wiki](https://en.wikipedia.org/wiki/Amazon_Web_Services), [shell](https://console.aws.amazon.com/cloudshell)
+* [AWS](https://signin.aws.amazon.com/console) - Amazon Web Services: [wiki](https://en.wikipedia.org/wiki/Amazon_Web_Services), [💻 shell](https://console.aws.amazon.com/cloudshell)
 * [Azure](https://azure.microsoft.com/en-us/) - [Microsoft Azure](https://en.wikipedia.org/wiki/Microsoft_Azure)
-* [GCP](https://console.cloud.google.com/) - Google  Cloud Platform: [wiki](https://en.wikipedia.org/wiki/Google_Cloud_Platform), [shell](https://shell.cloud.google.com/)
+* [GCP](https://console.cloud.google.com/) - Google  Cloud Platform: [wiki](https://en.wikipedia.org/wiki/Google_Cloud_Platform), [💻 shell](https://shell.cloud.google.com/)
 * [Oracle Cloud](https://cloud.oracle.com/compute/instances?region=us-ashburn-1) - [cloud computing service offered by Oracle Corporation](https://en.wikipedia.org/wiki/Oracle_Cloud)
 
 ## Image and Draw
