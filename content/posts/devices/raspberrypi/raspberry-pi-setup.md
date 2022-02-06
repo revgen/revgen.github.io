@@ -133,6 +133,7 @@ cd LCD-show/
 
 ## Links
 
+* [Awesome Raspberry Pi](https://rpi.thibmaek.com/)
 * [Good blog about RaspberryPi 3](https://trickiknow.com/raspberry-pi-3-complete-tutorial-2018-lets-get-started/)
 * [Setting WiFi up via the command line](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 * [Rasbian Lite Guide - GUI](https://www.raspberrypi.org/forums/viewtopic.php?t=133691)
