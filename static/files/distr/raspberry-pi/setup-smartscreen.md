@@ -63,6 +63,10 @@ sudo apt install -y xdotool
 
 ## Setup browser in kiosk mode
 ```bash
+# setup local http server (TODO: switch to lighttpd)
+sudo apt install -y nginx
+
+# install browser
 sudo apt install -y chromium-browser
 sudo apt install -y unclutter
 
