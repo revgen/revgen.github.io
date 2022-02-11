@@ -68,6 +68,11 @@ sudo apt install -y unclutter
 
 # TODO: need o add more details
 #add start-kiosk.sh into the ~/.config/autostart/autostart.sh
-
 ```
+
+## Disable black screen
+
+1. Install xcreensaver: ```sudo apt install -y xcreensaver```
+2. Go to the screensaver settings and set the mode to "Disable Screen Saver"
+
 
