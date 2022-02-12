@@ -10,9 +10,10 @@ amixer set Master unmute
 
 echo "Show loading progress bar"
 sleep ${delay} | tee >(zenity --progress --pulsate --no-cancel --auto-close --width=320 --text="Loading (please wait ~${delay} sec) ...")
+sleep ${delay} | tee >(zenity --progress --pulsate --no-cancel --auto-close --width=320 --text="Loading (ip=$(localip), (please wait ~${delay} sec)  ...")
 
 echo "Play startup sound: /usr/share/sounds/freedesktop/stereo/service-login.oga"
 omxplayer /usr/share/sounds/freedesktop/stereo/service-login.oga
 
 echo "Write system infor on wallpaper"
-sysinfo-slim --border | write-on-wallpaper.sh left-top #c0c0c0 24
+sysinfo --border | write-on-wallpaper left-top #dcdcdc 20

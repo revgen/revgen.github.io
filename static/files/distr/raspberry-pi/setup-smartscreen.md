@@ -35,6 +35,21 @@
    TODO: this part need to review
 7. Reboot RaspberryPi
 
+## Add admin user
+
+```bash
+sudo adduser --shell /bin/bash admin
+sudo usermod -aG sudo,adm,dialout,users admin
+sudo chmod 0700 /home/admin/
+```
+
+Login with **admin** user and check that it has admin right and sudo is working.
+```bash
+# remove sudo from pi user
+sudo deluser pi sudo
+sudo deluser pi adm
+sudo deluser pi lpadmin
+```
 
 ## Common tools
 
@@ -45,20 +60,26 @@ sudo ln -vs /usr/bin/vim.tiny /usr/bin/vim
 sudo apt install -y mc htop
 sudo apt install -y wget jq
 sudo apt install -y curl
-sudo apt install -y wicd-curses
+# sudo apt install -y wicd-curses   - good to to setup WiFi if you don't have an UI
+
+
 
 wget https://raw.githubusercontent.com/revgen/myenv/master/home/.local/bin/session
-wget https://raw.githubusercontent.com/revgen/myenv/master/extra/.local/bin/sysinfo-slim
-chmod +x ./session ./sysinfo-slim
+wget https://raw.githubusercontent.com/revgen/myenv/master/home/.local/bin/localip
+wget https://raw.githubusercontent.com/revgen/myenv/master/home/.local/bin/sysinfo
+wget https://raw.githubusercontent.com/revgen/myenv/master/extra/tools/write-on-wallpaper
+chmod +x ./session ./localip ./sysinfo ./write-on-wallpaper
+sudo mv -v ./localip /usr/local/bin
 sudo mv -v ./session /usr/local/bin
-sudo mv -v ./sysinfo-slim /usr/local/bin
-
+sudo mv -v ./sysinfo /usr/local/bin
+sudo mv -v ./write-on-wallpaper /usr/local/bin
 ```
 
 ## Common tools for GUI
 ```bash
 sudo apt install -y imagemagick
-sudo apt install -y xdotool
+sudo apt install -y xdotool zenity
+sudo apt install -y xcreensaver
 ```
 
 ## Setup browser in kiosk mode
@@ -72,11 +93,18 @@ sudo apt install -y unclutter
 
 # TODO: need o add more details
 #add start-kiosk.sh into the ~/.config/autostart/autostart.sh
+
+sudo vim /etc/nginx/sites-available/default
+# Add/Updte lines for the main server section
+# location / {
+#    proxy_pass https://server-with-the-dashboard/;
+# }
+sudo systemctl reload nginx
 ```
 
 ## Disable black screen
 
-1. Install xcreensaver: ```sudo apt install -y xcreensaver```
+1. Install xcreensaver: ```sudo apt install -y xscreensaver```
 2. Go to the screensaver settings and set the mode to "Disable Screen Saver"
 
 
