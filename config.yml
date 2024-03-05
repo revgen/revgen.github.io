@@ -13,7 +13,7 @@ params:
       - css/site.css
     js:
       - js/site.js
-  style: light
+  style: dark
   dateFormat: 'Monday, January 2, 2006'
   logo: ''
   slogan: ''
