@@ -12,6 +12,7 @@ Collection of desktop wallpapers
 [![wp-black-background-1080p-3.jpg](/files/images/wallpapers/desktop/wp-black-background-1080p-3.jpg)](/files/images/wallpapers/desktop/wp-black-background-1080p-3.jpg)
 [![wp-tree-texture-dark-pattern-25.jpg](/files/images/wallpapers/desktop/wp-tree-texture-dark-pattern-25.jpg)](/files/images/wallpapers/desktop/wp-tree-texture-dark-pattern-25.jpg)
 
+[![wp-endeavouros-orig-1600x900.png](/files/images/wallpapers/desktop/wp-endeavouros-orig-1600x900.png)](/files/images/wallpapers/desktop/wp-endeavouros-orig-1600x900.png)
 
 [![vladstudio_motion_1280x1024.jpg](/images/wallpapers/vladstudio_motion_1280x1024.jpg)](/images/wallpapers/vladstudio_motion_1280x1024.jpg)
 [![computer-1576510208543-3154.jpg](/images/wallpapers/computer-1576510208543-3154.jpg)](/images/wallpapers/computer-1576510208543-3154.jpg)
