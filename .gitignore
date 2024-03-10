@@ -1,8 +1,11 @@
 *.log
 
 # Hugo specific paths
-# public
-# resources
+/public
+/resources
+/src/*/public
+/src/*/resources
+*.lock
 
-
+# OS specific
 .DS_Store

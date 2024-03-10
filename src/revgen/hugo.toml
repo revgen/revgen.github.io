@@ -1,0 +1,44 @@
+title = "REvgen"
+theme = "hugo-coder"
+baseURL = ""
+languageCode = "en"
+defaultContentLanguage = "en"
+
+paginate = 100
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Evgen Rusakov"
+  description = "Evgen's personal website"
+  since = 2019
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  customCSS = []
+  customSCSS = []
+  customJS = []
+  customRemoteJS = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/revgen/"
+
+# Menu links
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
