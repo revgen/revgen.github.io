@@ -38,6 +38,7 @@ jobs:
           verbose: true
       - name: Create list of all files
         run: |
+          cd src
           pwd
           ls -ahl
           echo "Generated: $(date)" > site.txt
