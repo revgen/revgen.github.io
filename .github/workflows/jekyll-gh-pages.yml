@@ -36,6 +36,11 @@ jobs:
           destination: ./_site
           future: true
           verbose: true
+      - name: Create list of all files
+        run: |
+          pwd
+          ls -ahl
+          echo "Generated: $(date)" > site.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
