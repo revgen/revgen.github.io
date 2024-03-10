@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Autostart
-Exec=/bin/bash /home/pi/.config/autostart/autostart.sh
-

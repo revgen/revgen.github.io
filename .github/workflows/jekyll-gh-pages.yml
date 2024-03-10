@@ -36,12 +36,15 @@ jobs:
           destination: ./_site
           future: true
           verbose: true
+      - name: Copy files
+        run: |
+          cp -vR ./files/ ./_site/files/
       - name: Create list of all files
         run: |
           cd _site
+          echo "Generated: $(date)" > ./site.txt
           pwd
           ls -ahl
-          echo "Generated: $(date)" > ../site.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

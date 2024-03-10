@@ -1,9 +1,0 @@
-Torrents
-https://archive.org/details/bittorrent
-https://cdimage.debian.org/debian-cd/current/i386/bt-cd/debian-9.2.1-i386-netinst.iso.torrent
-http://torrent.unix-ag.uni-kl.de/torrents/KNOPPIX_V7.2.0CD-2013-06-16-EN.torrent
-https://archive.org/download/officialarmyregi19532unit/officialarmyregi19532unit_archive.torrent
-https://archive.org/download/101515255.nlm.nih.gov/101515255.nlm.nih.gov_archive.torrent
-https://archive.org/download/101515244.nlm.nih.gov/101515244.nlm.nih.gov_archive.torrent
-https://archive.org/download/TodayInHistorySatAug272016/TodayInHistorySatAug272016_archive.torrent
-https://archive.org/download/TodayInHistoryTueJul262016/TodayInHistoryTueJul262016_archive.torrent
