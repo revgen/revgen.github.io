@@ -32,7 +32,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./site
+          source: ./src
           destination: ./_site
           future: true
           verbose: true
