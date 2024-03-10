@@ -1,8 +1,9 @@
-+++
-title = "Backgrounds for Virtual Meetings"
-categories = ["files", "settings"]
-tags = ["images", "remote"]
-+++
+---
+title: Backgrounds for Virtual Meetings
+categories: ["files", "settings"]
+tags: ["images", "remote"]
+layout: post
+---
 
 Many of the Virtual Meeting tools ([Zoom](https://zoom.us/), [Skype](https://www.skype.com/), [Wickr](https://wickr.com/), and [other](https://teambuilding.com/blog/virtual-meeting-platforms)) allow us to hide or blur a real background with a custom image.
 <!--more-->
