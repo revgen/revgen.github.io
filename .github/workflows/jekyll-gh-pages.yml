@@ -38,6 +38,9 @@ jobs:
           verbose: true
       - name: Copy files
         run: |
+          pwd 
+          ls -ahl ./files/
+          ls -ahl ./_site/
           cp -vR ./files/ ./_site/files/
       - name: Create list of all files
         run: |
