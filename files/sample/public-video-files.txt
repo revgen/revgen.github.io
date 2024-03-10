@@ -1,0 +1,3 @@
+Resources for test video:
+https://kodi.wiki/view/Samples
+http://samples.mplayerhq.hu/

@@ -1,0 +1,16 @@
+# Example /etc/msmtprc for AWS SES
+defaults
+auth            on
+tls             on
+tls_starttls    on
+tls_trust_file  /etc/ssl/certs/ca-certificates.crt
+logfile
+syslog      LOG_MAIL
+ 
+account	   default
+port        587
+host        email-smtp.us-east-1.amazonaws.com
+from        account@gmail.com
+user        AKxxxxxxxxxxxxxxxxxx
+password    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+

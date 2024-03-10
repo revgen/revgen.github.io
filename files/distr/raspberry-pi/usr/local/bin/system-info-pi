@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+TIMEOUT=${TIMEOUT}
+gui_form_width=480
+
+ip=$(ip addr show | grep "inet " | grep 192 | awk '{print $2}' | cut -d'/' -f1 | xargs)
+ssh=$(systemctl status ssh | grep running | grep active > /dev/null && echo "✅ - enabled" || echo "❌ - disabled")
+vnc=$(systemctl status vncserver-x11-serviced | grep running | grep active > /dev/null && echo "✅ - enabled" || echo "❌ - disabled")
+internet=$(curl -sI --max-time 3 https://www.google.com | grep 200 >/dev/null && echo "👍 - connected" || echo "👎 - down")
+hardware=$(tr -d '\0' < /proc/device-tree/model)
+system=$(grep "PRETTY_NAME" /etc/os-release | cut -d"=" -f2 | sed 's/"//g')
+kernel=$(uname -srm)
+
+info="${hardware}
+
+System....: ${system}
+Kernel....: ${kernel}
+Hostname..: ${HOSTNAME}
+Address...: ${ip}
+SSH server: ${ssh}
+VNC server: ${vnc}
+Internet..: ${internet}
+Local time: $(date +"%Y-%m-%d %H:%M:%S %Z")"
+
+if [ -z "${DISPLAY}" ]; then
+    echo "${info}"
+else
+    if [ -n "${TIMEOUT}" ]; then
+        note="\n\n<span foreground='gray' font='9'>(The notification will be closed in ${TIMEOUT} seconds.)</span>"
+        timeout_param="--timeout=${TIMEOUT}"
+    else
+        note=
+        timeout_param=
+    fi
+    zenity --info --width=${gui_form_width} ${timeout_param} \
+        --text="<span foreground='blue' font='monospace 12'>${info}</span>${note}"
+fi
+
