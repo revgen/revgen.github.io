@@ -12,6 +12,9 @@ github_username:  revgen
 defaultContentLanguage: en
 languageCode: en-us
 
+sass:
+    sass_dir: _sass
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:title:output_ext
