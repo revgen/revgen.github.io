@@ -38,10 +38,10 @@ jobs:
           verbose: true
       - name: Create list of all files
         run: |
-          cd src
+          cd _site
           pwd
           ls -ahl
-          echo "Generated: $(date)" > ../_site/site.txt
+          echo "Generated: $(date)" > ../site.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
