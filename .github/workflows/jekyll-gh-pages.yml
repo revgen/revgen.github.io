@@ -41,7 +41,7 @@ jobs:
           cd src
           pwd
           ls -ahl
-          echo "Generated: $(date)" > site.txt
+          echo "Generated: $(date)" > ../_site/site.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
