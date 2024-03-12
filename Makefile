@@ -1,15 +1,16 @@
 site_name := revgen
+site_path := docs
 
 _build:
-	docker compose run build && mv -v ./src/$(site_name)/public ./public && echo "Done\n"
+	docker compose run build && mv -v ./src/$(site_name)/public ./docs && echo "Done\n"
 
 info:
-	echo "Site '$(site_name)' content:" && tree  ./public
+	echo "Site '$(site_name)' content:" && tree  ./$(site_path)
 
 clean:
-	rm -rvf ./public 2>/dev/null
+	rm -rvf ./$(site_path) 2>/dev/null
 
 build: clean _build info
 
 serve:
-	cd ./public && python3 -m http.server 8080
+	cd ./$(site_path) && python3 -m http.server 8080
