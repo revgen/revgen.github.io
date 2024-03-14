@@ -38,6 +38,11 @@ jobs:
           ls -ahl
           uname -a
           cat /etc/os-release
+      - name: Prepare build system xmllint
+        run: sudo apt-get hugo tree
+      - name: Show directory
+        run: |
+          hugo version
       # - name: Build with Hugo
       #   working-directory: ./
       #   with:
