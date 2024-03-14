@@ -36,13 +36,15 @@ jobs:
         run: |
           pwd
           ls -ahl
-      - name: Build with Hugo
-        working-directory: ./
-        with:
-          image: rev9en/hugo:latest
-          options: -v ${{ github.workspace }}./src/revgen:/site
-        run: |
-          make build
+          uname -a
+          cat /etc/os-release
+      # - name: Build with Hugo
+      #   working-directory: ./
+      #   with:
+      #     image: rev9en/hugo:latest
+      #     options: -v ${{ github.workspace }}./src/revgen:/site
+      #   run: |
+      #     make build
       - name: Copy static site
         run: |
           cp -vR ./src/revgen/public ./_site
