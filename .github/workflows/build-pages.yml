@@ -45,7 +45,7 @@ jobs:
           cd _site
           (
             echo "{"
-            echo "   \"id\": \"c699c38bf4247a2aebb2a5a46973e11207843a58\","
+            echo "   \"id\": \"${GITHUB_SHA}\","
             echo "   \"source\": \"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}\","
             echo "   \"updated\": \"$(date)\""
             echo "}"
