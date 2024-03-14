@@ -1,6 +1,6 @@
 title = "REvgen"
 theme = "hugo-coder"
-baseURL = ""
+baseURL = "/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
