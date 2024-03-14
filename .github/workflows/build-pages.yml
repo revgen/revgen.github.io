@@ -46,10 +46,10 @@ jobs:
           (
             echo "{"
             echo "   \"id\": \"c699c38bf4247a2aebb2a5a46973e11207843a58\","
-            echo "   \"url\": \"${{ steps.deployment.outputs.page_url }}\","
+            echo "   \"source\": \"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}\","
             echo "   \"updated\": \"$(date)\""
             echo "}"
-          ) > ./site.json
+          ) > ./config.json
           echo "Result site content:"
           ls -ahl .
       - name: Fix permissions
