@@ -48,7 +48,7 @@ jobs:
             echo "   \"id\": \"${GITHUB_SHA}\","
             echo "   \"source\": \"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}\","
             echo "   \"updated\": \"$(date -u +'%FT%T%z')\","
-            echo "   \"engine\": \"hugo+$(grep theme ./src/hugo.toml | cut -d'"' -f2)\""
+            echo "   \"engine\": \"hugo+$(grep theme ../src/hugo.toml | cut -d'"' -f2)\""
             echo "}"
           ) > ./config.json
           echo "Result site content:"
