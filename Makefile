@@ -2,7 +2,8 @@ site_name := revgen
 site_path := _site
 
 _build:
-	docker compose run build && cp -vR ./src/$(site_name)/public ./$(site_path) && echo "Done" && echo ""
+	hugo --config ./hugo.toml --source ./src --destination ../$(site_path) --minify \
+	&& echo "Done" && echo ""
 
 info:
 	echo "Site '$(site_name)' content:" && tree  ./$(site_path)
@@ -10,7 +11,7 @@ info:
 clean:
 	rm -rvf ./$(site_path) 2>/dev/null
 
-build: clean _build info
+build: clean _build
 
 serve:
 	cd ./$(site_path) && python3 -m http.server 8080

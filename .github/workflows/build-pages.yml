@@ -43,15 +43,14 @@ jobs:
           pwd;
           hugo --config ./hugo.toml --source ./src --destination ../_site --minify
           echo "Result site content:"
-          ls -ahl ./_site/
-      - name: Create list of all files
-        run: |
-          cd ./_site
+
           echo "Generated: $(date)" > ./info.txt
           tree  ./_site >> ./info.txt
+
+          ls -ahl ./_site/
       - name: Fix permissions
         run: |
-          chmod -c -R +rX "_site/" | while read line; do
+          chmod -c -R +rX "./_site/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
       - name: Upload artifact
