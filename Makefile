@@ -1,8 +1,8 @@
 site_name := revgen
-site_path := docs
+site_path := _site
 
 _build:
-	docker compose run build && mv -v ./src/$(site_name)/public ./docs && echo "Done\n"
+	docker compose run build && mv -v ./src/$(site_name)/public ./$(site_path) && echo "Done" && echo ""
 
 info:
 	echo "Site '$(site_name)' content:" && tree  ./$(site_path)
