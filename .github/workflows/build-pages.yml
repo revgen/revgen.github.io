@@ -32,27 +32,21 @@ jobs:
           ls -ahl
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Show directory
-        run: |
-          pwd
-          ls -ahl
-          uname -a
-          cat /etc/os-release
-      - name: Prepare build system xmllint
+      - name: Prepare build system
         run: sudo apt-get install -y hugo tree jq
       - name: Show directory
         run: |
+          python --version
           hugo version
-      # - name: Build with Hugo
-      #   working-directory: ./
-      #   with:
-      #     image: rev9en/hugo:latest
-      #     options: -v ${{ github.workspace }}./src/revgen:/site
-      #   run: |
-      #     make build
+          jq --version
+      - name: Build with Hugo
+        working-directory: ./src
+        run: |
+          hugo
+          ls -ahl ./public/
       - name: Copy static site
         run: |
-          cp -vR ./src/revgen/public ./_site
+          cp -vR ./src/public ./_site
       - name: Create list of all files
         run: |
           cd _site

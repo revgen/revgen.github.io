@@ -2,10 +2,8 @@
 
 # Hugo specific paths
 /_site
-/public
-/resources
-/src/*/public
-/src/*/resources
+/src/public
+/src/resources
 *.lock
 
 # OS specific
