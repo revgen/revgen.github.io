@@ -39,7 +39,7 @@ jobs:
           uname -a
           cat /etc/os-release
       - name: Prepare build system xmllint
-        run: sudo apt-get hugo tree
+        run: sudo apt-get install -y hugo tree jq
       - name: Show directory
         run: |
           hugo version
