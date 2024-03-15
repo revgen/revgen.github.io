@@ -7,12 +7,15 @@ defaultContentLanguage = "en"
 paginate = 100
 
 [markup.highlight]
-style = "github-dark"
+style = "monokai"
+# style = "github-dark"
 
 [params]
   author = "Evgen Rusakov"
   description = "Evgen's personal website"
   since = 2019
+
+  dateFormat = "January 2, 2006"
   colorScheme = "dark"
   hidecolorschemetoggle = false
 
@@ -20,6 +23,11 @@ style = "github-dark"
   customSCSS = []
   customJS = []
   customRemoteJS = []
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+  touchIcon = "/images/apple-touch-icon.png"
 
 [taxonomies]
   category = "categories"
@@ -35,10 +43,18 @@ style = "github-dark"
 
 # Menu links
 [[menu.main]]
-  name = "Posts"
+  name = "\U0001F516"
   weight = 1
-  url  = "posts2/"
+  url  = "/bookmarks"
 [[menu.main]]
-  name = "About"
+  name = "\U0001f4c1"
   weight = 2
-  url = "about2/"
+  url = "/categories"
+[[menu.main]]
+  name = "\U00000023"
+  weight = 2
+  url = "/tags"
+[[menu.main]]
+  name = "\U0001F6E0"
+  weight = 3
+  url  = "/tools"
