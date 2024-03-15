@@ -54,7 +54,7 @@ style = "monokai"
   name = "\U00000023"
   weight = 2
   url = "/tags"
-[[menu.main]]
-  name = "\U0001F6E0"
-  weight = 3
-  url  = "/tools"
+#[[menu.main]]
+#  name = "\U0001F6E0"
+#  weight = 3
+#  url  = "/tools"
