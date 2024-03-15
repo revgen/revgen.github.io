@@ -1,5 +1,0 @@
-services:
-  build:
-    image: "rev9en/hugo"
-    volumes: [./src/revgen:/site]
-  

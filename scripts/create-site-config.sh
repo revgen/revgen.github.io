@@ -1,6 +1,6 @@
 #!/bin/sh
 cd "$(dirname "${0}")/.."
-echo "Working directory '$(pwd)'"
+# echo "Working directory '$(pwd)'"
 if [ -z "${SITE_PATH}" ]; then . repo.conf; fi
 
 create_site_config_file() {
@@ -17,7 +17,10 @@ create_site_config_file() {
         echo "   \"id\": \"${GITHUB_SHA}\","
         echo "   \"source\": \"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}\","
         echo "   \"updated\": \"$(date -u +'%FT%T%z')\","
-        echo "   \"engine\": \"hugo+${HUGO_THEME}\""
+        echo "   \"engine\": \"hugo+${HUGO_THEME}\","
+        echo "   \"index.html\": \"/index.html\","
+        echo "   \"index.xml\": \"/index.xml\","
+        echo "   \"sitemap.xml\": \"/sitemap.xml\""
         echo "}"
     ) > "${CONFIG_FILE}"
 }

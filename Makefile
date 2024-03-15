@@ -1,17 +1,10 @@
-site_name := revgen
-site_path := _site
+.PHONY: build clean serve
 
-_build:
-	hugo --config ./hugo.toml --source ./src --destination ../$(site_path) --minify \
-	&& echo "Done" && echo ""
-
-info:
-	echo "Site '$(site_name)' content:" && tree  ./$(site_path)
-
-clean:
-	rm -rvf ./$(site_path) 2>/dev/null
-
-build: clean _build
+build:
+	./scripts/build.sh
 
 serve:
-	cd ./$(site_path) && python3 -m http.server 8080
+	./scripts/serve.sh
+
+clean:
+	./scripts/clean.sh
