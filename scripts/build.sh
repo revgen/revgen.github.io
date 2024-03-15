@@ -1,7 +1,7 @@
 #!/bin/sh
 cd "$(dirname "${0}")/.."
 echo "Working directory '$(pwd)'"
-. repo.conf
+. ./repo.conf
 
 build_site() {
     if [ ! -d "${SITE_SRC}" ]; then echo "Error: ${SITE_SRC} not exists"; exit 1; fi
