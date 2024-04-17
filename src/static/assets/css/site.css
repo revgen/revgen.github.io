@@ -1,3 +1,25 @@
-.navigation-item {
+@font-face {
+    font-family: "NotoSans";
+    src: url("/assets/fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+    font-family: "NotoSans";
+    src: url("/assets/fonts/NotoSans-Bold.ttf");
+    font-weight: bold;
+}
+
+.navigation .navigation-title {
     text-transform: uppercase;
+    font-family: "NotoSans";
+}
+
+.navigation .navigation-item {
+    text-transform: uppercase;
+}
+
+.avatar img {
+    transition: .2s;
+}
+.avatar img:hover {
+    transform: scale(1.1);
 }

@@ -1,7 +1,9 @@
 <nav class="navigation">
   <section class="container">
     {{ with .Site }}
-    <a class="navigation-title" href="{{ absLangURL "" }}">
+    <a id="pageTitle" class="navigation-title" href="{{ absLangURL "" }}"
+      onmouseover="setTitle(this, '{{ .Params.title }}')"
+      onmouseout="setTitle(this, '{{ .Title }}')">
       <!-- {{ .Title }} / {{ .Params.title }} -->
       {{ .Title }}
     </a>

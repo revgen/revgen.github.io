@@ -1,5 +1,5 @@
-# title = "Ԙvgen"
-title = "REvgen"
+title = "Ԙvgen"
+# title = "REvgen"
 theme = "hugo-coder"
 baseURL = "/"
 languageCode = "en"
@@ -15,6 +15,7 @@ style = "monokai"
   author = "Evgen Rusakov"
   description = "Evgen's personal website"
   avatarURL = "/assets/img/favicon.png"
+  # manifest = ""
   since = 2019
 
   dateFormat = "January 2, 2006"
@@ -46,7 +47,7 @@ style = "monokai"
 # Menu links
 [[menu.main]]
   # name = "\U0001F516 Bookmarks"
-  name = "BOOKMARKS"
+  name = "Bookmarks"
   weight = 1
   url  = "/bookmarks"
 [[menu.main]]
