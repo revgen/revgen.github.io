@@ -20,6 +20,6 @@
 .avatar img {
     transition: .2s;
 }
-.avatar img:hover {
+.avatar img:hover, .avatar img:active, .avatar img:focus {
     transform: scale(1.1);
 }

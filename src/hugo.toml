@@ -27,10 +27,11 @@ style = "monokai"
   # customJS = ["assets/js/site.js"]
   customRemoteJS = []
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
-  touchIcon = "/images/apple-touch-icon.png"
+  faviconSVG = "/assets/img/favicon.svg"
+  favicon_32 = "/assets/img/favicon-32x32.png"
+  favicon_16 = "/assets/img/favicon-16x16.png"
+  touchIcon = "/assets/img/favicon-apple-touch.png"
+  mask_icon = "/assets/img/favicon.svg"
 
 [taxonomies]
   category = "categories"

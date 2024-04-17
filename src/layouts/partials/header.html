@@ -3,7 +3,11 @@
     {{ with .Site }}
     <a id="pageTitle" class="navigation-title" href="{{ absLangURL "" }}"
       onmouseover="setTitle(this, '{{ .Params.title }}')"
-      onmouseout="setTitle(this, '{{ .Title }}')">
+      onmouseenter="setTitle(this, '{{ .Params.title }}')"
+      onfocus="setTitle(this, '{{ .Params.title }}')"
+      onmouseout="setTitle(this, '{{ .Title }}')"
+      onmouseleave="setTitle(this, '{{ .Title }}')"
+      onblur="setTitle(this, '{{ .Title }}')">
       <!-- {{ .Title }} / {{ .Params.title }} -->
       {{ .Title }}
     </a>
