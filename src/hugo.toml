@@ -15,7 +15,7 @@ style = "monokai"
   author = "Evgen Rusakov"
   description = "Evgen's personal website"
   avatarURL = "/assets/img/favicon.png"
-  manifest = "/webmanifest.json"
+  manifest = "/manifest.json"
 
   since = 2019
 

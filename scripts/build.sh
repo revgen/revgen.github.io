@@ -11,4 +11,13 @@ build_site() {
 build_site
 ./scripts/create-site-config.sh
 
+# fix browseconfig.yml file
+(
+    cd "${SITE_PATH}"
+    echo "Fix browserconfig.xml..."
+    mv browserconfig.xml browserconfig.xml.orig
+    sed 's/\&lt;/\</g' browserconfig.xml.orig > browserconfig.xml
+    rm -f browserconfig.xml.orig
+)
+
 echo "Done" && echo ""
