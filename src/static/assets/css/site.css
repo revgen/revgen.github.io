@@ -25,6 +25,9 @@
 }
 
 @media screen and (max-width:1150px) {
+    .avatar img {
+        width: 30rem;
+    }
     .wrapper {
         min-height: 85vh;
     }
