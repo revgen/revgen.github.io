@@ -23,3 +23,9 @@
 .avatar img:hover, .avatar img:active, .avatar img:focus {
     transform: scale(1.1);
 }
+
+@media screen and (max-width:1150px) {
+    .wrapper {
+        min-height: 90vh;
+    }
+}

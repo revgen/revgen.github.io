@@ -15,7 +15,8 @@ style = "monokai"
   author = "Evgen Rusakov"
   description = "Evgen's personal website"
   avatarURL = "/assets/img/favicon.png"
-  # manifest = ""
+  manifest = "/webmanifest.json"
+
   since = 2019
 
   dateFormat = "January 2, 2006"
@@ -38,6 +39,21 @@ style = "monokai"
   series = "series"
   tag = "tags"
   author = "authors"
+
+[outputFormats]
+    [outputFormats.manifest]
+        name = "manifest"
+        baseName = "manifest"
+        mediaType = "application/json"
+        notAlternative = "true"
+    [outputFormats.browserconfig]
+        name = "browserconfig"
+        baseName = "browserconfig"
+        mediaType = "application/xml"
+        notAlternative = "true"
+
+[outputs]
+    home = [ "HTML", "RSS", "MANIFEST", "BROWSERCONFIG"]
 
 [[params.social]]
   name = "Github"
