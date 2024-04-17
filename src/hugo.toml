@@ -14,7 +14,7 @@ style = "monokai"
   title = "REvgen"
   author = "Evgen Rusakov"
   description = "Evgen's personal website"
-  avatarURL = "/assets/img/favicon.png"
+  avatarURL = "/assets/img/site.png"
   manifest = "/manifest.json"
 
   since = 2019
@@ -31,7 +31,7 @@ style = "monokai"
   faviconSVG = "/assets/img/favicon.svg"
   favicon_32 = "/assets/img/favicon-32x32.png"
   favicon_16 = "/assets/img/favicon-16x16.png"
-  touchIcon = "/assets/img/favicon-apple-touch.png"
+  touchIcon = "/apple-touch-icon.png"
   mask_icon = "/assets/img/favicon.svg"
 
 [taxonomies]
