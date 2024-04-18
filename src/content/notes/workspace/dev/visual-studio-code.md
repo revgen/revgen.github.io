@@ -1,8 +1,7 @@
-+++
-title = "Microsoft Visual Studio Code"
-tags = ["apps", "ide"]
-categories = ["tools"]
-+++
+---
+title: Microsoft Visual Studio Code
+tags: [workspace, apps, development]
+---
 
 [Microsoft Visual Studio Code](https://code.visualstudio.com) is a code editor redefined and optimized for building and debugging modern web and cloud applications.
 <!--more-->

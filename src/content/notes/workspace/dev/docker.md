@@ -1,8 +1,8 @@
-+++
-title = "Docker"
-tags = ["container", "apps"]
-categories = ["tools"]
-+++
+---
+title: Docker
+tags: [workspace, development]
+date: 2020-01-01
+---
 
 
 [Docker](https://www.docker.com/) is a set of platform as a service products that uses OS-level virtualization to deliver software in packages called containers.

@@ -24,9 +24,9 @@ style = "monokai"
   hidecolorschemetoggle = false
 
   # customCSS = ["assets/css/site.css"]
-  customSCSS = []
+  # customSCSS = []
   # customJS = ["assets/js/site.js"]
-  customRemoteJS = []
+  # customRemoteJS = []
 
   faviconSVG = "/assets/img/favicon.svg"
   favicon_32 = "/assets/img/favicon-32x32.png"
@@ -68,16 +68,24 @@ style = "monokai"
   weight = 1
   url  = "/bookmarks"
 [[menu.main]]
-  # name = "\U00000023 Tags"
-  name = "TAGS"
+  name = "Notes"
   weight = 2
+  url = "/notes"
+[[menu.main]]
+  name = "Posts"
+  weight = 3
+  url = "/posts"
+[[menu.main]]
+  # name = "\U00000023 Tags"
+  name = "Tags"
+  weight = 4
   url = "/tags"
 [[menu.main]]
+  name = "Tools"
+  weight = 5
+  url  = "/tools"
+# [[menu.main]]
   # name = "\U0001f4c1 Categories"
-  name = "CATEGORIES"
-  weight = 3
-  url = "/categories"
-#[[menu.main]]
-#  name = "\U0001F6E0"
-#  weight = 3
-#  url  = "/tools"
+  # name = "CATEGORIES"
+  # weight = 3
+  # url = "/categories"

@@ -8,6 +8,10 @@
     font-weight: bold;
 }
 
+.content header h1.title {
+    font-size: 3.2rem;
+}
+
 .navigation .navigation-title {
     text-transform: uppercase;
     font-family: "NotoSans";

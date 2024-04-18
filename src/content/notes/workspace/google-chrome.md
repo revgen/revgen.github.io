@@ -1,8 +1,8 @@
-+++
-title = "Google Chrome"
-tags = ["apps"]
-categories = ["tools"]
-+++
+---
+title: Google Chrome
+tags: [workspace, apps]
+date: 2020-01-01
+---
 
 [Google Chrome][wiki-chrome] is a freeware web browser developed by [Google][wiki-google].
 <!--more-->

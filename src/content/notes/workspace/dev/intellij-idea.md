@@ -1,9 +1,8 @@
-+++
-title = "IntelliJ IDEA"
-tags = ["apps", "ide"]
-categories = ["tools", "development", "cheat sheets"]
-archive = true
-+++
+---
+title: IntelliJ IDEA
+tags: [workspace, apps, development]
+archive: true
+---
 
 [IntelliJ IDEA](https://www.jetbrains.com/idea/) is an integrated development environment written in Java for developing computer software
 <!--more-->
