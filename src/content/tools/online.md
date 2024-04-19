@@ -1,7 +1,8 @@
-+++
-title = "Tools"
-single = true
-+++
+---
+title: Online tools
+tags: [tools]
+single: true
+---
 
 ## Common
 * [Master Password](https://js.masterpassword.app/)
