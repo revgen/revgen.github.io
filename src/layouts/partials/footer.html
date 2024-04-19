@@ -1,4 +1,7 @@
 <script src="/assets/js/site.js?ts={{time.Now.Unix}}"></script>
+<script>
+  pageOnLoad("pageTitle", "{{ .Site.Params.title }}");
+</script>
 <footer class="footer">
   <section class="container">
     ©

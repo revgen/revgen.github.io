@@ -1,5 +1,4 @@
-title = "Ԙvgen"
-# title = "REvgen"
+title = "revgen"
 theme = "hugo-coder"
 baseURL = "/"
 languageCode = "en"
@@ -11,7 +10,7 @@ style = "monokai"
 # style = "github-dark"
 
 [params]
-  title = "REvgen"
+  title = "Ԙvgen"
   author = "Evgen Rusakov"
   description = "Evgen's personal website"
   avatarURL = "/assets/img/site.png"

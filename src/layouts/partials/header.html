@@ -2,13 +2,12 @@
   <section class="container">
     {{ with .Site }}
     <a id="pageTitle" class="navigation-title" href="{{ absLangURL "" }}"
-      onmouseover="setTitle(this, '{{ .Params.title }}')"
-      onmouseenter="setTitle(this, '{{ .Params.title }}')"
-      onfocus="setTitle(this, '{{ .Params.title }}')"
-      onmouseout="setTitle(this, '{{ .Title }}')"
-      onmouseleave="setTitle(this, '{{ .Title }}')"
-      onblur="setTitle(this, '{{ .Title }}')">
-      <!-- {{ .Title }} / {{ .Params.title }} -->
+      onmouseover="setTitle(this, '{{ .Title }}')"
+      onmouseenter="setTitle(this, '{{ .Title }}')"
+      onfocus="setTitle(this, '{{ .Title }}')"
+      onmouseout="setTitle(this, '{{ .Params.title }}')"
+      onmouseleave="setTitle(this, '{{ .Params.title }}')"
+      onblur="setTitle(this, '{{ .Params.title }}')">
       {{ .Title }}
     </a>
     {{ end }}

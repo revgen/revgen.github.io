@@ -8,6 +8,16 @@
     font-weight: bold;
 }
 
+.container {
+    margin: 0 auto;
+}
+.content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.content header {
+    margin: 0;
+}
 .content header h1.title {
     font-size: 3.2rem;
 }
