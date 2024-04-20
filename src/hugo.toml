@@ -66,10 +66,10 @@ style = "monokai"
   name = "Bookmarks"
   weight = 1
   url  = "/bookmarks"
-[[menu.main]]
-  name = "Notes"
-  weight = 2
-  url = "/notes"
+#[[menu.main]]
+#  name = "Notes"
+#  weight = 2
+#  url = "/notes"
 [[menu.main]]
   name = "Posts"
   weight = 3
