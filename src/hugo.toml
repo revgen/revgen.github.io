@@ -10,9 +10,11 @@ style = "monokai"
 # style = "github-dark"
 lineNoStart = 1
 lineNos = true
+
 # lineNumbersInTable = true
 tabWidth = 2
 # example: https://mertbakir.gitlab.io/hugo/syntax-highlighting-in-hugo/
+# https://gohugo.io/getting-started/configuration-markup/#highlight
 
 [params]
   title = "Ԙvgen"
