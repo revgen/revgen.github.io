@@ -8,11 +8,10 @@ paginate = 100
 [markup.highlight]
 style = "monokai"
 # style = "github-dark"
-lineNoStart = 1
-lineNos = true
-
+#lineNoStart = 1
+#lineNos = true
 # lineNumbersInTable = true
-tabWidth = 2
+#tabWidth = 2
 # example: https://mertbakir.gitlab.io/hugo/syntax-highlighting-in-hugo/
 # https://gohugo.io/getting-started/configuration-markup/#highlight
 
