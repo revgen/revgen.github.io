@@ -7,7 +7,7 @@ date: 2024-04-24
 Example code on Python to check a connection to url with standart python http module.
 
 <!--more-->
-You can download script here: [check_connection.py](./check_connection.py)
+You can download script here: [check_connection.py](../files/check_connection.py)
 
 ```python
 # #############################################################################
