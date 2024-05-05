@@ -10,6 +10,6 @@ The [official AWS icon set](https://aws.amazon.com/architecture/icons/) for buil
 
 The collection unpacked AWS Architecture icon set can be found [here](https://revgen.gitlab.io/images/aws-architecture-icons/).
 
-[![aws-arch-icons-preview-01.png](aws-arch-icons-preview-01.png)](https://revgen.gitlab.io/images/aws-architecture-icons/)
-[![aws-arch-icons-preview-02.png](aws-arch-icons-preview-02.png)](https://revgen.gitlab.io/images/aws-architecture-icons/)
-[![aws-arch-icons-preview-03.png](aws-arch-icons-preview-03.png)](https://revgen.gitlab.io/images/aws-architecture-icons/)
+[![aws-arch-icons-preview-01.png](./files/images/aws-arch-icons-preview-01.png)](https://revgen.gitlab.io/images/aws-architecture-icons/)
+[![aws-arch-icons-preview-02.png](./files/images/aws-arch-icons-preview-02.png)](https://revgen.gitlab.io/images/aws-architecture-icons/)
+[![aws-arch-icons-preview-03.png](./files/images/aws-arch-icons-preview-03.png)](https://revgen.gitlab.io/images/aws-architecture-icons/)
