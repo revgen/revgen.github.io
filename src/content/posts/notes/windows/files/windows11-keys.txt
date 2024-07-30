@@ -1,0 +1,10 @@
+Windows Temporary Activativation codes for test purpose.
+!!! Do not use it on real workstations or servers.
+-----------------------------------------------------------
+Windows 11 Home:
+* VFg5WEQtOThON1YtNldNUTYtQlg3RkctSDhROTk=
+Windows 11 Pro:
+* VzI2OU4tV0ZHV1gtWVZDOUItNEo2QzktVDgzR1g=
+Windows 11 Home -> Pro Upgrade:
+* TlJHOEItVktLM1EtQ1hWQ0otOUcyWEYtNlE4NEo=
+-----------------------------------------------------------

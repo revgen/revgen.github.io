@@ -26,3 +26,5 @@ Collection of desktop wallpapers
 [![wp-vladstudio-gear_wheel.jpg](/files/images/wallpapers/desktop/wp-vladstudio-gear_wheel.jpg)](/files/images/wallpapers/desktop/wp-vladstudio-gear_wheel.jpg)
 [![wp-vladstudio-snow_leopard.jpeg](/files/images/wallpapers/desktop/wp-vladstudio-snow_leopard.jpeg)](/files/images/wallpapers/desktop/wp-vladstudio-snow_leopard.jpeg)
 [![wp-vladstudio-the_earth_and_the_moon.jpg](/files/images/wallpapers/desktop/wp-vladstudio-the_earth_and_the_moon.jpg)](/files/images/wallpapers/desktop/wp-vladstudio-the_earth_and_the_moon.jpg)
+
+[![wp-painting-mountain-lake-with-mountain-background.jpg](/files/images/wallpapers/desktop/wp-painting-mountain-lake-with-mountain-background.jpg)](/files/images/wallpapers/desktop/wp-painting-mountain-lake-with-mountain-background.jpg)
