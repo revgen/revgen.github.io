@@ -1,6 +1,6 @@
 ---
 title: Windows Tools
-tags: [tool, window]
+tags: [tool, windows]
 date: 2024-07-16
 ---
 

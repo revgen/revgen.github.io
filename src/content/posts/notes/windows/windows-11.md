@@ -1,8 +1,12 @@
 ---
 title: Windows 11
-tags: [tool, window]
+tags: [windows]
 date: 2024-07-16
 ---
+
+Install and setup Windows 11.
+
+<!--more-->
 
 ## Windows 11 Setup - Bypass TPM & Secureboot
 

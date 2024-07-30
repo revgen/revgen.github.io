@@ -1,6 +1,6 @@
 ---
 title: Windows Tool - winget
-tags: [tool, window]
+tags: [tool, windows]
 date: 2024-05-08
 ---
 
