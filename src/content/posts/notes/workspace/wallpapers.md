@@ -1,6 +1,7 @@
 ---
 title: Desktop Wallpapers
 tags: [images, workspace]
+date: 2018-10-24
 ---
 
 Collection of desktop wallpapers

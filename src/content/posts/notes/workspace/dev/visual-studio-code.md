@@ -1,6 +1,7 @@
 ---
 title: Microsoft Visual Studio Code
 tags: [workspace, apps, development]
+date: 2019-08-12
 ---
 
 [Microsoft Visual Studio Code](https://code.visualstudio.com) is a code editor redefined and optimized for building and debugging modern web and cloud applications.

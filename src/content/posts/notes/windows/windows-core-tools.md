@@ -1,10 +1,10 @@
 ---
 title: Windows Tools
-tags: [tool, windows]
+tags: [tool, windows, workspace]
 date: 2024-07-16
 ---
 
-## List of [winget](./winget) packages for daily usage
+## List of [winget](../winget) packages for daily usage
 
 <!--more-->
 
