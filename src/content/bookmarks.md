@@ -30,6 +30,14 @@ permalink: /bookmarks/
 * [Project Gutenberg](https://www.gutenberg.org/)
 * [Open Library](https://openlibrary.org/)
 
+## Games
+
+* [Steam](https://store.steampowered.com/)
+* [GOG](https://www.gog.com/)
+* Retro Games:
+    * Emulators: [RetroPi](https://retropie.org.uk/), [EmuELEC](https://emuelec.discourse.group/), [FCEUX](https://fceux.com/web/home.html)
+    * ROMS: [EmulatorGames](https://www.emulatorgames.net/roms/), [ROMS Games](https://www.romsgames.net/roms/), 
+
 ## Other
 * [Microsoft Office](https://www.office.com/), [Microsoft OneDrive](https://onedrive.live.com/)
 * [Apple iCloud](https://icloud.com/)
