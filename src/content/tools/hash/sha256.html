@@ -1,0 +1,56 @@
+---
+title: SHA-256 hash calculator
+tags: [tools, security]
+date: 2023-01-01
+permalink: /tools/sha256
+---
+<script src="../sha256.js" ></script>
+<script lang="javascript" type="text/javascript">
+    function calculateSHA256()
+    {
+        const strTxt = document.getElementById("inputText").value;
+        let strHash = hex_sha256(strTxt).toLowerCase();
+        document.getElementById("outputText").value = strHash;
+    }
+
+    sha256_vm_test();
+
+</script>
+<style>
+    textarea {
+        min-height: 200px;
+        width: 100%;
+    }
+    input[type=text] {
+        width: 100%;
+    }
+    button {
+        padding: 5px;
+    }
+</style>
+<!-- <h3>SHA-256 hash calculator</h3> -->
+
+<p>
+    This online tool allows you to generate the <a href="https://en.wikipedia.org/wiki/SHA-2" target="_blank" alt="Link to the wikipage with SHA-2">SHA256</a> hash of any string.
+</p>
+<p>
+    <textarea id="inputText" autofocus="true" role="textbox"
+        contenteditable="true" aria-multiline="true" class="textarea" spellcheck="false"
+        placeholder="Enter your text here..." data-gramm="false"></textarea>
+</p>
+<p>
+    <button type="button" class="button is-primary" onclick="calculateSHA256(); return false;">
+        Calculate SHA256 hash
+    </button>
+</p>
+<h4>SHA-256 hash</h4>
+<p>
+    <input type="text" autocomplete="off" id="outputText" class="input" readonly
+        value="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" />
+</p>
+<h4>Other online SHA-256 calculators:</h4>
+<ul>
+    <li><a href="https://emn178.github.io/online-tools/sha256.html">emn178.github.io/online-tools/sha256.html</a></li>
+    <li><a href="https://passwordsgenerator.net/sha256-hash-generator">passwordsgenerator.net/sha256-hash-generator</a></li>
+</ul>
+
