@@ -31,7 +31,8 @@ permalink: /bookmarks/
 * [Open Library](https://openlibrary.org/)
 
 ## Study
-* [Cursera](https://www.coursera.org/)
+* [Coursera](https://www.coursera.org/)
+* [Udemy](https://www.udemy.com/)
 * [Pluralsight](https://pluralsight.com)
 * [A Cloud Guru](https://acloud.guru)
 
