@@ -30,6 +30,11 @@ permalink: /bookmarks/
 * [Project Gutenberg](https://www.gutenberg.org/)
 * [Open Library](https://openlibrary.org/)
 
+## Study
+* [Cursera](https://www.coursera.org/)
+* [Pluralsight](https://pluralsight.com)
+* [A Cloud Guru](https://acloud.guru)
+
 ## Games
 
 * [Steam](https://store.steampowered.com/)

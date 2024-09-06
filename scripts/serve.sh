@@ -11,4 +11,12 @@ export SITE_PATH="${SITE_SRC}/public"
 
 echo "Start server in ${SITE_SRC} directory"
 echo "Web server: http://localhost:${PORT}"
-hugo server -D --source "${SITE_SRC}"  --bind 0.0.0.0 --port ${PORT}
+
+docker run -it --rm \
+        -v "$(pwd):/work" \
+        -w /work \
+        -p ${PORT}:${PORT} \
+        hugomods/hugo:base-0.120.3 \
+        hugo server -D --source "${SITE_SRC}"  --bind 0.0.0.0 --port ${PORT}
+
+

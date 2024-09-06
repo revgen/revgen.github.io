@@ -5,7 +5,11 @@ echo "Working directory '$(pwd)'"
 
 build_site() {
     if [ ! -d "${SITE_SRC}" ]; then echo "Error: ${SITE_SRC} not exists"; exit 1; fi
-    hugo --config ./hugo.toml --source ./${SITE_SRC} --destination ../${SITE_PATH} --minify --verbose
+    docker run -it --rm \
+        -v "$(pwd):/work" \
+        -w /work \
+        hugomods/hugo:base-0.120.3 \
+        hugo --config ./hugo.toml --source ./${SITE_SRC} --destination ../${SITE_PATH} --minify --verbose
 }
 
 build_site

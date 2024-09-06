@@ -21,6 +21,7 @@ tabWidth = 2
   description = "Evgen's personal website"
   avatarURL = "/assets/img/site.png"
   manifest = "/manifest.json"
+  srcUrl = "https://github.com/revgen/revgen.github.io/tree/master/src/content/"
 
   since = 2019
 
