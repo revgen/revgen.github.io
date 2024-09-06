@@ -69,10 +69,10 @@ tabWidth = 2
 
 # Menu links
 [[menu.main]]
-  # name = "\U0001F516 Bookmarks"
-  name = "Bookmarks"
-  weight = 1
-  url  = "/bookmarks"
+#  # name = "\U0001F516 Bookmarks"
+#  name = "Bookmarks"
+#  weight = 1
+#  url  = "/bookmarks"
 #[[menu.main]]
 #  name = "Notes"
 #  weight = 2
