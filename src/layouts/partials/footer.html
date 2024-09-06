@@ -20,7 +20,14 @@
       {{ end }}
     {{ end }}
     <a href="https://en.wikipedia.org/wiki/Yae_(Cyrillic)" alt="Symbol Ԙ" target="_blank">(Ԙ)</a>
-    <a href="{{ .Site.Params.srcUrl }}/{{ .Path }}" alt="Edit site" target="_blank">✎</a>
+    {{ $path := "" }}
+    {{ with .File }}
+      {{ $path = .Path }}
+    {{ else }}
+      {{ $path = .Path }}
+    {{ end }}
+    {{ $srcPath := replaceRE "^tags/" "posts/" $path }}
+    <a href="{{ .Site.Params.srcUrl }}{{ $srcPath }}" alt="Edit site" target="_blank">✎</a>
     {{ if (and .Site.Params.license) }}
       {{ i18n "licensed_under" }} {{ .Site.Params.license | safeHTML }}
     {{ end }}
