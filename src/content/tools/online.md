@@ -9,7 +9,7 @@ single: true
 
 ## Network/Internet
 * Collection of the Networking Tools from [WhatMyIp.org](https://www.whatsmyip.org/)
-    - [What is My IP](https://www.whatsmyip.org/)
+    - [What is My IP](https://www.whatsmyip.org/), [My External IP address is](https://myexternalip.com/)
     - [Port Scanner](https://www.whatsmyip.org/port-scanner/)
     - [Geo Location](https://www.whatsmyip.org/ip-geo-location/)
     - [HTTP Headers](https://www.whatsmyip.org/http-headers/)
