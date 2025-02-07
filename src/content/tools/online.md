@@ -51,8 +51,9 @@ single: true
     - Image generator: [dummyimage.com](https://dummyimage.com/), [placehold.jp](http://placehold.jp/en.html), [craftypixels.com](https://craftypixels.com/placeholder-image/)
 * Icons: [iconfinder](https://www.iconfinder.com)
 * Symbols and Emoji: [emojipedia](https://emojipedia.org/), [wikipedia/emoji](https://en.wikipedia.org/wiki/Emoji)
-* [MSPaint](https://jspaint.app)
+* Online paint: [MSPaint](https://jspaint.app), [PaintZ](https://paintz.app/)
 * Image Converter: [convertio](https://convertio.co/image-converter)
+* Online CAD: [Tinkercad](https://www.tinkercad.com/)
 
 ## Printable Materials
 
