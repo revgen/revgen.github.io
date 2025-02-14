@@ -18,7 +18,7 @@ single: true
 * Collection of the Networking Tools from [](https://www.yougetsignal.com/)
     - [What is My IP](https://www.yougetsignal.com/what-is-my-ip-address/)
     - [Port Scanner](https://www.yougetsignal.com/tools/open-ports/)
-* Get you public IP address in cli:
+* Get your public IP address in cli:
     - ```curl -sL http://checkip.amazonaws.com```
     - ```curl -sL https://api.ipify.org``` or ```curl -sL https://api.ipify.org?format=json```
     - ```curl -sL http://icanhazip.com```
@@ -49,7 +49,7 @@ single: true
 * Image placeholders:
     - Random photos: [placeimg.com](https://placeimg.com/), [picsum.photos](https://picsum.photos/)
     - Image generator: [dummyimage.com](https://dummyimage.com/), [placehold.jp](http://placehold.jp/en.html), [craftypixels.com](https://craftypixels.com/placeholder-image/)
-* Icons: [iconfinder](https://www.iconfinder.com)
+* Icons: [iconfinder](https://www.iconfinder.com), [favicongenerator](https://realfavicongenerator.net/)
 * Symbols and Emoji: [emojipedia](https://emojipedia.org/), [wikipedia/emoji](https://en.wikipedia.org/wiki/Emoji)
 * Online paint: [MSPaint](https://jspaint.app), [PaintZ](https://paintz.app/)
 * Image Converter: [convertio](https://convertio.co/image-converter)
