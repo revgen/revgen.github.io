@@ -29,7 +29,7 @@ jobs:
       - name: Show directory
         run: |
           pwd
-          ls -ahl
+          tree
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Prepare build system
