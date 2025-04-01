@@ -52,6 +52,11 @@ jobs:
           chmod -c -R +rX "./_site/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
+      - name: Show site content
+        run: |
+          cd _site
+          echo "Public site content:"
+          tree
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
