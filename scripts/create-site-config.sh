@@ -8,7 +8,7 @@ create_site_config_file() {
     # We expect to be inside the _site directory
     GITHUB_SERVER_URL="${GITHUB_SERVER_URL:-"local"}"
     GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-"site"}"
-    GITHUB_SHA="${GITHUB_SHA:-"$(echo "${GITHUB_SERVER_URL}" | sha1sum  | awk '{print $1}')"}"
+    GITHUB_SHA="${GITHUB_SHA:-"$(echo "${GITHUB_SERVER_URL}" | (sha1sum 2>/dev/null || shasum)  | awk '{print $1}')"}"
     HUGO_THEME="$(grep theme "${SITE_SRC}/hugo.toml" | cut -d'"' -f2)"
     CONFIG_FILE="${SITE_PATH}/config.json"
     echo "Create ${CONFIG_FILE} file"
