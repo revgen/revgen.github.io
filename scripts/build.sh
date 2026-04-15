@@ -19,6 +19,14 @@ build_site() {
 build_site
 ./scripts/create-site-config.sh
 
+# patch
+echo "Patch sha256 tool"
+if [ ! -f ./_site/tools/hash/sha256.js ]; then
+    cp -v ./src/content/tools/hash/sha256.js ./_site/tools/hash/sha256.js
+else
+    echo "Exists: ./_site/tools/hash/sha256.js"
+fi
+
 # fix browseconfig.yml file
 (
     cd "${SITE_PATH}"
